@@ -1,0 +1,217 @@
+.{
+	padding:0;
+	margin:0;
+	box-sizing: boder-box;
+}
+navbar{
+	background-color:white;
+}
+.nav-link{
+	color:black;
+	font-size:1rem;
+	font-weight:700;
+	cursor:pointer;
+	text-decoration:none;
+}
+.nav-link:hover{
+	color:blue;
+	background-color:black;
+	
+}
+.navbar-brand{
+	font-size:1.25rem;
+	font-weight:800;
+	color:black;
+	cursor:pointer;
+	text-decoration:none;
+}
+.main{
+	background:url(./brain.jpg)no-repeat;
+	background-size:cover;
+	width:100%;
+	height:95vh;
+}
+.main h3{
+	font-size:4.4rem;
+	font-width:700;
+	color:blue;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  height:55px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+.fa-linkedin {
+ background: #007bb5;
+  color: white;
+}
+.fa-github {
+ background: black;
+  color: white;
+}
+.main h5{
+	font-size:1.4rem;
+	text-transform:uppercase;
+	line-height:1;
+	border-bottom:2px solid rgb(233,10,109);
+	width:35%;
+	color:blue;
+}
+.main h6{
+	font-size:1.0rem;
+	text-transform:uppercase;
+	width:50%;
+	color:blue;
+}
+/*.main .bt1{
+	height:55px;
+	width:138px;
+	background-color:rgb(233,20,109);
+	color:white;
+	outline:none;
+	border:none;
+	font-weight:bold;
+	border-radius:5px;
+}
+.main .bt1:hover{
+	background-color:rgb(202,10,95);
+	transition:0.5s;
+}
+
+.main .bt2{
+	height:55px;
+	width:138px;
+	background-color:transparent;
+	color:rgb(233,20,109);
+	outline:none;
+	border:1px solid rgb(233,20,109);
+	font-weight:bold;
+	border-radius:5px;
+}
+.main .bt2:hover{
+	background-color:rgb(233,20,109);
+	transition:0.5s;
+	color:white;
+}*/
+.about h1{
+	font-size:4.4rem;
+	font-width:700;
+	color:black;
+}
+.about img{
+	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+}
+.about p{
+	font-size:1.25rem;
+	font-width:80;
+	color:black;
+}
+.progress{
+	background-color:rgb(223,219,219);
+	justify-content:flex-start;
+	border-radius:50px;
+	align-items:center;
+	position:relative;
+	display:flex;
+	height:29px;
+	width: 100%;
+}
+.pro-value1{
+	animation:load1 3s normal forwards;
+	border-radius:50px;
+	background-color:black;
+	height:29px;
+	width:0;
+}
+.progress p{
+	color:white;
+	
+}
+@keyframes load1{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+.pro-value2{
+	animation:load2 3s normal forwards;
+	border-radius:50px;
+	background-color:black;
+	height:29px;
+	width:0;
+}
+.progress p{
+	color:white;
+	
+}
+@keyframes load2{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:85%;
+	}
+}
+.pro-value3{
+	animation:load3 3s normal forwards;
+	border-radius:50px;
+	background-color:black;
+	height:29px;
+	width:0;
+}
+.progress p{
+	color:white;
+	
+}
+@keyframes load3{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:83%;
+	}
+}
+.btn1{
+		height:40px;
+		width:145px;
+		outline:none;
+		border:none;
+		background-color:black;
+		color:white;
+		border-radius:4px;
+}
+.btn1:hover{
+	background-color:transparent;
+	color:black;
+	border:1px solid black;
+	transition:0.5s;
+}
+.project{
+	background-color:blue;
+}
+.card{
+	background-color:black;
+	border-radius:0;
+	box-shadow:5px 5px 15px #e74c;
+	transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.card:hover{
+	background-color: #e74c;
+	color:#fff;
+	border-radius:5px;
+	border:none;
+	box-shadow:5px,5px,10px,#9E9E9E;
+}
+.card:hover h5{
+	color:blue;
+}
