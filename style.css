@@ -26,7 +26,7 @@ navbar{
 	text-decoration:none;
 }
 .main{
-	background:url(./brain.jpg)no-repeat;
+	background:url(./bg.jpg)no-repeat;
 	background-size:cover;
 	width:100%;
 	height:95vh;
