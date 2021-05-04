@@ -3,8 +3,8 @@
 	margin:0;
 	box-sizing: boder-box;
 }
-navbar{
-	background-color:white;
+.navbar{
+	background-color:blue;
 }
 .nav-link{
 	color:black;
@@ -14,8 +14,8 @@ navbar{
 	text-decoration:none;
 }
 .nav-link:hover{
-	color:blue;
-	background-color:black;
+	color:white;
+	background-color:blue;
 	
 }
 .navbar-brand{
