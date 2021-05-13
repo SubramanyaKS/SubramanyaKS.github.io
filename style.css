@@ -199,6 +199,28 @@
 	border:1px solid black;
 	transition:0.5s;
 }
+.education{
+	background-color:#4367F0;
+	
+}
+.education img{
+	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+
+.subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 .project{
 	background-color:#4169E1;
 }
