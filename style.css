@@ -38,8 +38,66 @@
 	font-width:700;
 	color:blue;
 }
-.fa {
-  padding: 20px;
+
+/*.animated-text span.active{
+	display:inline;
+}
+.animated-text:after{
+	content:".";
+	display:inline;
+	width:6px;
+	text-indent:0;
+	background:var(blue)
+	animation:blink 0.3s infinite alternate;
+}
+.datawords{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	
+}
+@keyframes blink{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}*/
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.fab {
+  padding: 10px;
   font-size: 20px;
   height:55px;
   width: 60px;
@@ -47,11 +105,16 @@
   text-decoration: none;
   margin: 5px 3px;
 }
+
 .fa-linkedin {
- background: #007bb5;
+ background: blue;
   color: white;
 }
 .fa-github {
+ background: black;
+  color: white;
+}
+.fa-hackerrank {
  background: black;
   color: white;
 }
@@ -117,7 +180,44 @@
 	font-width:80;
 	color:black;
 }
-.progress{
+.skills{
+	background-color:#4169E1;
+	margin-bottom:10px;
+	margin-left:10px;
+	border-radius:0;
+	box-shadow:5px 5px 15px #e74c;
+	transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.skills:hover{
+	background-color:black;
+	transition:0.5s;
+	
+	color:#fff;
+	border-radius:5px;
+	border:none;
+	box-shadow:5px,5px,10px,#9E9E9E;
+}
+.skills .fab{
+  padding: 0px;
+  font-size: 20px;
+  height:20px;
+  width: 600px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+.skills .fas{
+  padding: 0px;
+  font-size: 20px;
+  height:20px;
+  width: 600px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+/*.progress{
 	background-color:rgb(223,219,219);
 	justify-content:flex-start;
 	border-radius:50px;
@@ -183,7 +283,7 @@
 	100%{
 		width:83%;
 	}
-}
+}*/
 .btn1{
 		height:40px;
 		width:145px;
