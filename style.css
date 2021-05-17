@@ -368,7 +368,7 @@
 	background-color:#00CED1;
 	margin:auto;
 }
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 480px) { 
 	.main .above .education .project .contact {
 		width: 100%;
 	}
