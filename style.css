@@ -1,12 +1,13 @@
 .{
 	padding:0;
-	margin:0;
+	margin:auto;
 	box-sizing: boder-box;
 	
 }
 .navbar{
 	background-color:black;
 }
+
 .nav-link{
 	color:blue;
 	font-size:1rem;
@@ -25,6 +26,13 @@
 	color:blue;
 	cursor:pointer;
 	text-decoration:none;
+}
+#container-fluid {
+    height: 500px;
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    top: 60px;
 }
 .main{
 	background:url(./bg2.jpg)no-repeat;
