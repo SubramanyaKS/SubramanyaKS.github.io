@@ -31,6 +31,7 @@
 	background-size:cover;
 	width:100%;
 	height:95vh;
+	margin:auto;
 	
 }
 .main h3{
@@ -165,6 +166,7 @@
 }*/
 .about{
 	background-color:#00FFFF;
+	margin:auto;
 }
 .about h1{
 	font-size:4.4rem;
@@ -302,6 +304,7 @@
 }
 .education{
 	background-color:#87CEFA;
+	margin:auto;
 	
 }
 .education img{
@@ -325,6 +328,7 @@
 }
 .project{
 	background-color:#4169E1;
+	margin:auto;
 }
 .card{
 	background-color:#4169E1;
@@ -353,5 +357,6 @@
 }
 .contact{
 	background-color:#00CED1;
+	margin:auto;
 }
 
