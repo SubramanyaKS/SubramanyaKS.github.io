@@ -191,6 +191,7 @@
 	font-width:80;
 	color:black;
 }
+
 .skills{
 	background-color:#4169E1;
 	margin-bottom:10px;
@@ -367,4 +368,8 @@
 	background-color:#00CED1;
 	margin:auto;
 }
-
+@media only screen and (max-width: 767px) { 
+	.main .above .education .project .contact {
+		width: 100%;
+	}
+}
