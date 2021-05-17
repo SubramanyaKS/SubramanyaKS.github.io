@@ -339,7 +339,7 @@
 	margin:auto;
 }
 .card{
-	background-color:#4169E1;
+	background-color:#00FFFF;
 	margin-bottom:10px;
 	margin-left:10px;
 	border-radius:0;
@@ -355,7 +355,7 @@
 	background-color:#800080;
 	transition:0.5s;
 	
-	color:#fff;
+	color:#00FFFF;
 	border-radius:5px;
 	border:none;
 	box-shadow:5px,5px,10px,#9E9E9E;
