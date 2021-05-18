@@ -38,7 +38,7 @@ html,body{
     height: 500px;
     width: 1024px;
     margin: auto;
-    position: relative;
+    position: absolute;
     top: 60px;
 }
 .main{
