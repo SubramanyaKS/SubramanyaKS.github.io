@@ -57,7 +57,9 @@ html,body{
 	color:#ffdead;
 	font-family:cursive;
 }
-
+.main h5{
+        text-allign:center;
+}
 /*.animated-text span.active{
 	display:inline;
 }
