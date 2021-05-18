@@ -50,11 +50,11 @@ html,body{
 	margin:auto;
 	
 }
-.main h3{
+.main h4{
 	text-allign:center;
 	font-size:4.4rem;
 	font-width:700;
-	color:blue;
+	color:#ffdead;
 	font-family:cursive;
 }
 
