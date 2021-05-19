@@ -38,7 +38,7 @@ html,body{
     height: 500px;
     width: 1024px;
     margin: auto;
-    position: absolute;
+    position:relative;
     top: 60px;
 }
 .main{
@@ -52,7 +52,7 @@ html,body{
 }
 .main h4{
 	text-align:center;
-	font-size:4.4rem;
+	font-size:4.0rem;
 	font-width:700;
 	color:#ffdead;
 	font-family:cursive;
