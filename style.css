@@ -57,12 +57,7 @@ html,body{
 	color:#ffdead;
 	font-family:cursive;
 }
-.main p{
-        text-align:center;
-}
-.main h6{
-        text-align:center;
-}
+
 /*.animated-text span.active{
 	display:inline;
 }
@@ -145,6 +140,7 @@ html,body{
 .main h5{
 	font-size:1.4rem;
 	text-transform:uppercase;
+	text-align:center;
 	line-height:1;
 	border-bottom:2px solid rgb(233,10,109);
 	width:35%;
@@ -152,6 +148,7 @@ html,body{
 }
 .main h6{
 	font-size:1.0rem;
+	text-align:center;
 	text-transform:uppercase;
 	width:50%;
 	color:blue;
