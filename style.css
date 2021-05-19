@@ -143,14 +143,14 @@ html,body{
 	text-align:center;
 	line-height:1;
 	border-bottom:2px solid rgb(233,10,109);
-	width:35%;
+	width:100%;
 	color:blue;
 }
 .main h6{
 	font-size:1.0rem;
 	text-align:center;
 	text-transform:uppercase;
-	width:50%;
+	width:100%;
 	color:blue;
 }
 /*.main .bt1{
