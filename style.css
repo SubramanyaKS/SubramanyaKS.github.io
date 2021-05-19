@@ -141,8 +141,9 @@ html,body{
 	font-size:1.4rem;
 	text-transform:uppercase;
 	text-align:center;
-	line-height:1;
-	border-bottom:2px solid rgb(233,10,109);
+	text-decoration: underline;
+	/*line-height:1;
+	border-bottom:2px solid rgb(233,10,109);*/
 	width:100%;
 	color:blue;
 }
