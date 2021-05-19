@@ -115,6 +115,7 @@ html,body{
   display: inline-block;
   line-height: 1em;
 }*/
+
 .fab {
   padding: 10px;
   font-size: 20px;
@@ -135,6 +136,17 @@ html,body{
 }
 .fa-hackerrank {
  background: black;
+  color: white;
+}
+.iconify{
+  padding: 10px;
+  font-size: 20px;
+  height:55px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+  background: black;
   color: white;
 }
 .main h5{
