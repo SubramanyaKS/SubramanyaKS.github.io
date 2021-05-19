@@ -51,14 +51,17 @@ html,body{
 	
 }
 .main h4{
-	text-allign:center;
+	text-align:center;
 	font-size:4.4rem;
 	font-width:700;
 	color:#ffdead;
 	font-family:cursive;
 }
 .main h5{
-        text-allign:center;
+        text-align:center;
+}
+.main h6{
+        text-align:center;
 }
 /*.animated-text span.active{
 	display:inline;
