@@ -46,6 +46,10 @@ function send(event) {
           }).then(function(response){ 
            if (response == 'OK') {              
                alert("Mail sent succeessfully");
+	       document.getElementById("name").value='';
+	       document.getElementById("email").value='';
+	       document.getElementById("message").value='';
+	       document.getElementById("subject").value='';
             } else {
                 throw new Error("Error: " + response.statusText);
             } 
