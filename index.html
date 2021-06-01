@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,6 +20,7 @@
 	  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
 	<link rel ="stylesheet" href="style.css">
+	<script src ="myweb.js"></script>
 	
     <title>Subramanya K S Website</title>
   </head>
@@ -171,12 +173,11 @@
 	<!--Project Section-->
 	<section class ="project py-5" id="project">
 		<div class="container-fluid ">
+		<h2 class ="text-center"> &nbsp; My Project.</h2>
 			<div class="row">
-				<div class="col-12">
-				 <h2 class ="text-center"> &nbsp; My Project.</h2>
 					<div class="card-deck">
-						<div class="col-md-4">
-						<div class="card " style="width: 18rem;">
+						<div class="col-md-6">
+						<div class="card" style="width: 18rem;">
 							<div class="card-body mt-4">
 								<h5 class="card-title">Bus Reservation System.</h5>
 								<h6 class="card-subtitle mb-2 text-muted">A Dbms mini-project</h6>
@@ -185,8 +186,8 @@
 							</div>
 						</div>
 						</div>
-						<div class="col-md-4">
-						<div class="card " style="width: 18rem;">
+						<div class="col-md-6">
+						<div class="card" style="width: 18rem;">
 							<div class="card-body mt-4">
 								<h5 class="card-title">Diabeties Prediction System.</h5>
 								<h6 class="card-subtitle mb-2 text-muted">Machine-learning project using regression model.</h6>
@@ -196,9 +197,9 @@
 							</div>
 						</div>
 						</div>
-						<div class="col-md-4">
-						<div class="card " style="width: 18rem;">
-							<div class="card-body">
+						<div class="col-md-6">
+						<div class="card" style="width: 18rem;">
+							<div class="card-body mt-4">
 								<h5 class="card-title">Heart Disease Prediction System.</h5>
 								<h6 class="card-subtitle mb-2 text-muted">Machine-learning project using regression model.</h6>
 								<p class="card-text">In this project we predict the heart disease  by collecting various details and building various machine learning model using ‘heart.csv’ dataset.</p>
@@ -207,9 +208,9 @@
 							</div>
 						</div>
 						</div>
-						<div class="col-md-4">
-						<div class="card " style="width: 18rem;">
-							<div class="card-body">
+						<div class="col-md-6">
+						<div class="card" style="width: 18rem;">
+							<div class="card-body mt-4">
 								<h5 class="card-title">VTU SGPA CGPA Calculator.</h5>
 								<h6 class="card-subtitle mb-2 text-muted">Java jar application.</h6>
 								<p class="card-text">In this project a jar application which calculate the CGPA and SGPA of 2015,2017 and 2018 scheme students of VTU.</p>
@@ -221,7 +222,7 @@
 						</div>
 						
 					</div>
-				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -229,20 +230,34 @@
 	<!--CONTACT SECTION-->
 	<section class ="contact py-5" id="contact">
 		<div class="container-fluid ">
+			<h1 class ="text-center"> &nbsp; Contact me.</h1>
 			<div class="row">
-				<div class="col-12">
-				 <h1 class ="text-center"> &nbsp; Contact me.</h1>
+			
+				<div class="contact-form col-md-6">
 				 
-				<!-- <i class="fa fa-phone" aria-hidden="true"></i>
-				 <i class ="number">9535290710</i><br>-->
+				 <div>
+				 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123918.0915299389!2d75.49467359854468!3d13.93236556508149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba8d0ec620495%3A0x5589d733c2761a17!2sShivamogga%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1622511744228!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				 <i class ="number">9535290710</i><br>
 				 <i class="fa fa-envelope" aria-hidden="true"></i>
 				  <i class ="text">subramanyaks2205gmail.com</i><br>
 				 <i class="fa fa-map-marker" aria-hidden="true"></i>
 				  <i class ="text">Shivamogga,Karnataka,India</i><br>
 				 </div>
+				 </div>
 				 
+				 
+				 <div class = "form col-md-6">
+					<form id="myform" onsubmit="return validation()">
+						<input type="text" placeholder="Name" id="name" required><br>
+						<input type="Emai;" placeholder="Email"id="email" required><br>
+						<input type="text" placeholder="Subject of this message"id="subject" required><br>
+						<textarea name="message" placeholder="Message" id="message" rows="5" cols="30" required></textarea><br>
+						<button class="submit" onclick="send(event)">Send</button>
+					</form>
+				 </div>
   <a href="https://www.freecounterstat.com" title="html hit counter code"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=eejyl6w9aejyy3q3em38bw6lse7a6ha8" border="0" title="html hit counter code" alt="html hit counter code"></a>
-			</div>
+			<div>
 		</div>
 	</section>
 		

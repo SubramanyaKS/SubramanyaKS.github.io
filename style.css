@@ -393,8 +393,51 @@ html,body{
 	background-color:#00CED1;
 	margin:auto;
 }
+
+.contact-form i.fa{
+	font-size:22px;
+	padding:3%;
+	margin:2%;
+	border:1px solid rgb(190,190,190);
+	cursor:pointer;
+	
+}
+input{
+	padding:10px;
+	margin:10px;
+	width:70%;
+	background-color:rgb(133,133,133,0.5);
+	color:#fff;
+}
+input::placeholder{
+	color:white;
+}
+textarea{
+	padding:10px;
+	margin:10px;
+	width:70%;
+	background-color:rgb(133,133,133,0.5);
+	color:#fff;
+}
+textarea::placeholder{
+	color:white;
+}
+.submit{
+	background-color:black;
+	padding:4px;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:2px;
+	margin-left:3%;
+	text-align:center;
+	cursor:pointer;
+	color:#fff;
+	border:#000;
+}
 @media only screen and (max-width: 480px) { 
 	.main .above .education .project .contact {
 		width: 100%;
+		text-align:center;
+		display:block;
 	}
 }
