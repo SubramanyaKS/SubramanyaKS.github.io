@@ -8,51 +8,52 @@ function validation(){
 	if(name.length<4){
 		text="Please enter Valid Name";
 		error_msg.innerHTML=text;
-		returnfalse;
+		return false;
 	}
 	
 	if(subject.length<6){
 		text="Please enter correct Subject";
 		error_msg.innerHTML=text;
-		returnfalse;
+		return false;
 	}
 	
 	if(email.indexOf("@")==-1 || email.length<6){
 		text="Please enter Valid Email";
 		error_msg.innerHTML=text;
-		returnfalse;
+		return false;
 	}
 	
 	if(message.length <= 20){
 		text="please Enter  more than 20 characters";
 		error_msg.innerHTML=text;
-		returnfalse;
+		return false;
 	}
 	alert("Form Submitted Success");
 	return true;
 		
 }
 function send(event) {
-        event.preventDefault();           
-        Email.send({
-          name:document.getElementById('name').value,    
-          Host : "smtp.gmail.com",
-          Username : "connectwithsubbu@gmail.com",
-          Password : "Subbu@12345",
-          To : "connectwithsubbu@gmail.com",
-          From : document.getElementById('email').value,
-          Subject : document.getElementById('subject').value,
-          Body : document.getElementById('message').value
-          }).then(function(response){ 
-           if (response == 'OK') {              
-               alert("Mail sent succeessfully");
-	       document.getElementById("name").value='';
-	       document.getElementById("email").value='';
-	       document.getElementById("message").value='';
-	       document.getElementById("subject").value='';
-            } else {
-                throw new Error("Error: " + response.statusText);
+		
+        event.preventDefault();
+		Email.send({
+			name:document.getElementById('name').value, 
+			SecureToken : "e56b27ea-1135-4ec1-864f-a7204c4fcaf9",
+			To : 'connectwithsubbu@gmail.com',
+			From : document.getElementById('email').value,
+			Subject : document.getElementById('subject').value,
+			Body : document.getElementById('message').value
+		}).then(function(response){ 
+				if (response == 'OK') {              
+					alert("Mail sent succeessfully");
+					document.getElementById("name").value='';
+					document.getElementById("email").value='';
+					document.getElementById("message").value='';
+					document.getElementById("subject").value='';
+				} else {
+					throw new Error("Error: " + response.statusText);
             } 
          });
+		
+
  
     }    
