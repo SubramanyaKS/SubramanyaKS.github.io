@@ -57,6 +57,11 @@ html,body{
 	color:#ffdead;
 	font-family:cursive;
 }
+.experience{
+	background-color:#4eeb1f;
+	margin:auto;
+	text-align:center;
+}
 
 /*.animated-text span.active{
 	display:inline;
