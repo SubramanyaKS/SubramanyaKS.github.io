@@ -8,8 +8,10 @@ You can checkmy latest work in this website
 * HTML
 * CSS
 * Javascript.
+* VS Code.
+* BootStrap
 
 Live: https://subramanyaks.github.io/
 
 Thank You for visiting
-Have a Good day 😄
+Have a Good day 😊 
