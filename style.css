@@ -50,6 +50,67 @@
 	margin:auto;
 	
 }
+header{
+	height: 80px;
+	background-color: black;
+	padding: 10px 5px;
+}
+.menu-wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+.fa-user-graduate{
+	height: 50px;
+	font-size: 2.4em;
+	color: white;
+}
+.menu-icon{
+	font-size: 2.4em;
+	color: white;
+	line-height: 50px;
+}
+
+nav{
+	position: absolute;
+	background-color: black;
+	top: 70px;
+	left:0;
+	width: 100%;
+}
+
+nav ul{
+	list-style-type: none; 
+}
+nav ul li{
+	padding: 0 15px;
+}
+nav ul li a{
+	color: yellow;
+
+	font-size: 100%;
+	display: inline-block;
+	padding: 0.3%;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav ul{
+	max-height: 0;
+	overflow: hidden;
+	transition: width 2s,height 4s;
+}
+nav ul li a:hover,nav ul li a:focus{
+	text-shadow: 1px 1px 5px blue;
+	font-size: 120%;
+}
+#checkbox{
+	display: none;
+}
+#checkbox:checked ~ nav ul{
+	max-height: 140px;
+	padding: 15px 0;
+	transition: all 0.5s;
+}
 .main h4{
 	text-align:center;
 	font-size:4.0rem;
