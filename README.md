@@ -1,6 +1,6 @@
 # My Personal Website.
 
-👋 Hi, <br>
+👋 Hi, Amigo <br>
 I am Subramanya K S.This is my personal website hosted on Github.
 You can checkmy latest work in this website
 
