@@ -394,6 +394,18 @@ nav ul li a:hover,nav ul li a:focus{
 		width:83%;
 	}
 }*/
+.btn{
+	background-color: #4169E1;
+	outline:none;
+	border:none;
+
+}
+.btn:hover{
+	background-color:transparent;
+	color:black;
+	border:1px solid black;
+	transition:0.5s;
+}
 .btn1{
 		height:40px;
 		width:145px;
