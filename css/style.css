@@ -203,14 +203,34 @@ nav ul li a:hover,nav ul li a:focus{
 
 .fab {
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   height:55px;
   width: 60px;
   text-align: center;
   text-decoration: none;
   margin: 5px 3px;
 }
-
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	height:55px;
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 3px;
+  }
+  .fa-twitter{
+	background: rgb(15, 15, 15);
+  	color: rgb(100, 128, 248);
+}
+.fa-facebook{
+	background: rgb(98, 36, 243);
+  	color: rgb(245, 245, 248);
+}
+.fa-youtube-play{
+	background: rgb(12, 12, 12);
+  	color: rgb(245, 240, 240);
+}
 .fa-linkedin {
  background: blue;
   color: white;

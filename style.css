@@ -516,6 +516,14 @@ textarea{
 textarea::placeholder{
 	color:white;
 }
+.fa-youtube-play{
+	background: black;
+  	color: white;
+}
+.contract-connect{
+	text-align: center;
+	
+}
 .submit{
 	background-color:black;
 	padding:4px;
