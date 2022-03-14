@@ -3,8 +3,6 @@
 	margin:0;
 	box-sizing: border-box;
 	
-	
-	
 }
 
 .html,.body{
@@ -551,4 +549,7 @@ textarea::placeholder{
 		text-align:center;
 		display:block;
 	}
+        .body{
+             width:100%;
+        }
 }
