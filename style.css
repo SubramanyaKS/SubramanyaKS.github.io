@@ -1,10 +1,7 @@
-* {
+*{
 	padding:0;
 	margin:0;
 	box-sizing: border-box;
-	
-	
-	
 }
 .html{
      width:100%;
@@ -53,7 +50,7 @@
     top: 60px;
 }
 .main{
-	background:url(./bg2.jpg)no-repeat;
+	background:url(./images/bg2.jpg)no-repeat;
 	background-size:cover;
 	text-align: center;
 	width:100%;
