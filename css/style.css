@@ -2,11 +2,21 @@
 	padding:0;
 	margin:0;
 	box-sizing: border-box;
-	
+	overflow-x:hidden;
 	
 	
 }
-.html{
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px) {
+	body {
+	  background-color: olive;
+	}
+  }
+.html,.body{
      width:100%;
      height:100%;
      margin:0px;
@@ -14,14 +24,7 @@
      overflow-x:hidden;
 	 margin-bottom: 0;
 }
-.body{
-	width:100%;
-	height:100%;
-	margin:0px;
-	padding:0px;
-	overflow-x:hidden;
-	margin-bottom: 0;
-}
+
 .navbar{
 	background-color:black;
 }
