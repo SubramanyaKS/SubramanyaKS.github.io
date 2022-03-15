@@ -546,11 +546,11 @@ textarea::placeholder{
 	border:#000;
 }
 @media only screen and (max-width: 480px) { 
-	.main .about .experience .education .project .contact {
+	/*.main .about .experience .education .project .contact {
 		width: 100%;
 		text-align:center;
 		display:block;
-	}
+	}*/
         .html,.body{
              width:100%;
 			 height: 100%;
