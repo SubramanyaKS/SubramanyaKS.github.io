@@ -4,7 +4,9 @@
 	box-sizing: border-box;
 	
 }
-
+.body{
+	padding: 0%;
+}
 .html,.body{
      width:100%;
      height:100%;
@@ -12,6 +14,7 @@
      padding:0;
      overflow-x:hidden;
 	 margin-bottom: 0;
+	 margin-right: 0rem;
 }
 
 .navbar{
@@ -38,27 +41,25 @@
 	text-decoration:none;
 }
 #container-fluid {
-    height: 500px;
-    width: 1024px;
+    height: auto;
+    width: auto;
     margin: auto;
     position:relative;
-    top: 60px;
+    top: 60rem;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 0;
 	padding-right: 0;
 }
-.main{
+#main{
 	background:url(./bg2.jpg)no-repeat;
 	background-size:cover;
 	text-align: center;
-	width:100%;
-	height:95vh;
-	margin:auto;
+	
 	
 }
 header{
-	height: 80px;
+	height: auto;
 	background-color: black;
 	padding: 10px 5px;
 }
@@ -129,7 +130,6 @@ nav ul li a:hover,nav ul li a:focus{
 .main h4{
 	text-align:center;
 	font-size:4.0rem;
-	font-width:700;
 	color:#ffdead;
 	font-family:cursive;
 }
@@ -137,6 +137,8 @@ nav ul li a:hover,nav ul li a:focus{
 	background-color:#4eeb1f;
 	margin:auto;
 	text-align:center;
+	width: 100%;
+	height: 100%;
 }
 
 /*.animated-text span.active{
@@ -257,14 +259,14 @@ nav ul li a:hover,nav ul li a:focus{
 	text-decoration: underline;
 	/*line-height:1;
 	border-bottom:2px solid rgb(233,10,109);*/
-	width:100%;
+	width:auto;
 	color:#ff9900;
 }
 .main h6{
 	font-size:1.0rem;
 	text-align:center;
 	text-transform:uppercase;
-	width:100%;
+	width:auto;
 	color:blue;
 }
 /*.main .bt1{
@@ -297,6 +299,11 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:0.5s;
 	color:white;
 }*/
+@media only screen and (max-width: 768px) {
+	.body {
+	  background-color: rgb(168, 186, 192);
+	}
+  }
 .about{
 	background-color:#00FFFF;
 	margin:auto;
@@ -304,17 +311,17 @@ nav ul li a:hover,nav ul li a:focus{
 }
 .about h1{
 	font-size:4.4rem;
-	font-width:700;
 	color:black;
 }
 .about img{
+	width: auto;
+	height: auto;
 	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 }
 .about p{
 	font-size:1.25rem;
-	font-width:80;
 	color:black;
 }
 
@@ -341,7 +348,7 @@ nav ul li a:hover,nav ul li a:focus{
   padding: 0px;
   font-size: 20px;
   height:20px;
-  width: 600px;
+  width: 100%;
   text-align: left;
   text-decoration: none;
   margin: 5px 3px;
@@ -350,7 +357,7 @@ nav ul li a:hover,nav ul li a:focus{
   padding: 0px;
   font-size: 20px;
   height:20px;
-  width: 600px;
+  width: 100%;
   text-align: left;
   text-decoration: none;
   margin: 5px 3px;
@@ -464,7 +471,7 @@ nav ul li a:hover,nav ul li a:focus{
 .right {
   position: absolute;
   right: 0px;
-  width: 300px;
+  width: 100%;
   padding: 10px;
 }
 
@@ -478,6 +485,7 @@ nav ul li a:hover,nav ul li a:focus{
 	background-color:#4169E1;
 	margin:auto;
 	text-align:center;
+	width: 100%;
 }
 .card{
 	background-color:#00FFFF;
@@ -549,48 +557,31 @@ textarea::placeholder{
 	color:#fff;
 	border:#000;
 }
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 768px) { 
+	.main .about .experience .education .project .contact {
+		width: 100%;
+		height: 100%;
+		text-align:center;
+		display:block;
+		font-size: medium;
+	}
+        
+}
+@media only screen and (min-width: 300px) { 
+	.html .experience .education .project .contact {
+		width: 100%;
+		height: 100;
+		text-align:center;
+		display:block;
+	}
+        
+}
+/*@media only screen and (max-width: 600px) { 
 	.main .about .experience .education .project .contact {
 		width: 100%;
 		height: 100;
 		text-align:center;
 		display:block;
 	}
-        .html,.body{
-             width:100%;
-			 height: 100%;
-			 margin: 0;
-			 padding: 0;
-			 overflow-x: hidden;
-        }
-}
-@media only screen and (min-width: 480px) { 
-	.main .about .experience .education .project .contact {
-		width: 100%;
-		height: 100;
-		text-align:center;
-		display:block;
-	}
-        .html,.body{
-             width:100%;
-			 height: 100%;
-			 margin: 0;
-			 padding: 0;
-			 overflow-x: hidden;
-        }
-}
-@media only screen and (max-width: 600px) { 
-	.main .about .experience .education .project .contact {
-		width: 100%;
-		height: 100;
-		text-align:center;
-		display:block;
-	}
-        .html,.body{
-             width:100%;
-			 height: 100%;
-			 margin: 0;
-			 padding: 0;
-			 overflow-x: hidden;
-        }
-}
+        
+}*/
