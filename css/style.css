@@ -43,6 +43,10 @@
     margin: auto;
     position:relative;
     top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0;
+	padding-right: 0;
 }
 .main{
 	background:url(./bg2.jpg)no-repeat;
