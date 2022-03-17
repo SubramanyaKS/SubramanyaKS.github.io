@@ -230,6 +230,10 @@ nav ul li a:hover,nav ul li a:focus{
 	background: rgb(12, 12, 12);
   	color: rgb(245, 240, 240);
 }
+.fa-google{
+	background: rgb(12, 12, 12);
+  	color: rgb(245, 240, 240);
+}
 .fa-linkedin {
  background: blue;
   color: white;
