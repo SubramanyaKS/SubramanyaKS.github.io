@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -64,7 +65,26 @@
 	<div class="container-fluid py-5">
 		<div class="row py-5">
 			<div class = "col-lg-12 col-mg-12 py-5 mr-auto">
-				<h4><small>Hello, I am </small><br>Subramanya K S</h4>
+				<h4><small>Hello, I am </small><br><span class="name"></span></h4>
+				<h5 class="pt-3"><span class="typed"></span> </h5><br>
+				<script>
+  					var typed = new Typed('.typed', {
+   					 strings: ['LEARNER','PROGRAMMER','DEVELOPER'],
+						typeSpeed:40,
+						backSpeed:40,
+						loop:true,
+
+ 					 });
+				</script>
+				<script>
+  					var typed = new Typed('.name', {
+   					 strings: ['Subramanya K S'],
+						typeSpeed:40,
+						backSpeed:40,
+						loop:true,
+
+ 					 });
+				</script>
 				<!--<h5 class="ml11">
 				<span class="text-wrapper">
 				<span class="line line1"></span>
@@ -73,7 +93,7 @@
 				</h5>-->
 				<!--<span style="display: inline;">I am into<span class="animated-text" data-words="java Developer,Web Developer,Android Developer"></span>
 				</span>-->
-				<h5 class="pt-3">LEARNER|JAVA DEVELOPER </h5><br>
+				
 				
 				<!--<input type="button" value ="About me" class ="bt1 mt-5 mr-3">
 				<input type="button" value ="contact me" class ="bt2 mt-5">-->
@@ -96,8 +116,7 @@
 thereby getting better at it each time.
 
 I'm passionate about Web Development, Android App Development. Also, I enthusiastically follow up the Data Science domain.
-Accordingly, I'm equipped with HTML, CSS, JavaScript, SQL skills and proficient in OOP concepts and languages like Java, C++.
-In addition to this, I've also got good hold on Python aiding my Data Science interests too.
+Accordingly, I'm equipped with HTML, CSS, JavaScript, SQL skills and proficient in OOP concepts and languages like Java and C.
 
 Utilizing all of these skills, I have completed several projects regarding the same and thus am aware of the real world practical constraints that is usually encountered while solving problems.
 I also actively interact with the open source community, contributing to it and also trying out new stuff.

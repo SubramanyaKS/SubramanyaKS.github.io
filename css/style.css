@@ -198,6 +198,9 @@ nav ul li a:hover,nav ul li a:focus{
   display: inline-block;
   line-height: 1em;
 }*/
+.name{
+	color: rgb(10, 194, 250);
+}
 
 .fab {
   padding: 10px;
