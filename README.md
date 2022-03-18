@@ -4,6 +4,9 @@
 I am Subramanya K S.This is my personal website hosted on Github.
 You can check my latest work in this website
 
+
+<a href="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge"></a>
+
 #### Technology used
 * HTML
 * CSS
