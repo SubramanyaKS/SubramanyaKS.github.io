@@ -2,7 +2,7 @@
 
 👋 Hi, Amigo <br>
 I am Subramanya K S.This is my personal website hosted on Github.
-You can checkmy latest work in this website
+You can check my latest work in this website
 
 #### Technology used
 * HTML
@@ -14,4 +14,4 @@ You can checkmy latest work in this website
 Live: https://subramanyaks.github.io/
 
 Thank You for visiting
-Have a Good day 😊 
+Have a nice day 😊 
