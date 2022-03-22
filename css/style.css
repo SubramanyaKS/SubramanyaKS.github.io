@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 * {
+
 	padding:0;
 	margin:0;
 	box-sizing: border-box;
@@ -7,6 +8,10 @@
 }
 .body{
 	padding: 0%;
+	background-image:url('../images/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
 }
 .html,.body{
      width:100%;
@@ -16,6 +21,10 @@
      overflow-x:hidden;
 	 margin-bottom: 0;
 	 margin-right: 0rem;
+	 background-image:url('../images/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	 
 }
 
 .navbar{
@@ -53,8 +62,9 @@
 	padding-right: 0;
 }
 #main{
-	background:url(./bg2.jpg)no-repeat;
-	background-size:cover;
+	background:url(./images/bg3.jpg)no-repeat;
+ 	 background-size: cover;
+  	background-position: center;
 	text-align: center;	
 }
 header{
@@ -133,7 +143,8 @@ nav ul li a:hover,nav ul li a:focus{
 	font-family:cursive;
 }
 .experience{
-	background-color:#4eeb1f;
+	background-image:url('../images/bg3.jpg');background-repeat:no-repeat;
+	background-size: cover;
 	margin:0;
 	text-align:center;
 	width: 100%;
@@ -311,7 +322,10 @@ nav ul li a:hover,nav ul li a:focus{
 	}
   }
 .about{
-	background-color:#00FFFF;
+	background-image:url('../images/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 100%;
 	margin:auto;
 	text-align:center;
 }
@@ -463,7 +477,9 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:0.5s;
 }
 .education{
-	background-color:#87CEFA;
+	background-image:url('../images/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
 	margin:auto;
 	text-align:center;
 	
@@ -488,7 +504,9 @@ nav ul li a:hover,nav ul li a:focus{
   font-size: 1.5rem;
 }
 .project{
-	background-color:#4169E1;
+	background-image:url('../images/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
 	margin:auto;
 	text-align:center;
 	width: 100%;
@@ -517,7 +535,7 @@ nav ul li a:hover,nav ul li a:focus{
 }
 
 .card{
-	background-color:#18fafa;
+	background-color:#800000;
 	margin-bottom:10px;
 	margin-left:10px;
 	border-radius:0;
@@ -528,6 +546,9 @@ nav ul li a:hover,nav ul li a:focus{
 }
 .card h5{
 	color:#000000;
+}
+.card p{
+	color: #000000;
 }
 .card:hover{
 	background-color:#800080;
@@ -542,7 +563,9 @@ nav ul li a:hover,nav ul li a:focus{
 	color:blue;
 }
 .contact{
-	background-color:#00CED1;
+	background-image:url('../images/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
 	margin:auto;
 }
 
@@ -633,4 +656,10 @@ textarea::placeholder{
 }
 .card-body .fa-download{
 	color: rgb(22, 21, 21);
+}
+.about p{
+	color: #fff;
+}
+p,h1,h2,h3,h5,h6,i{
+	color: rgb(248, 248, 248);
 }
