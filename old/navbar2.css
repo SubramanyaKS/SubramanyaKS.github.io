@@ -1,0 +1,145 @@
+
+	body {
+	    margin: 0;
+	    font-family: Roboto;
+	}
+
+	.hero-image .about-me {
+	    width: 100%;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    right: 0;
+	    transform: translate(-50%, -50%);
+	    text-align: center;
+	    z-index: 99;
+	}
+
+	.hero-image .about-me label {
+	    font-size: 26px;
+	    color: #fff;
+	    display: block;
+	}
+	.hero-image:after {
+	    background-color: black;
+	    content: '';
+	     position: absolute; 
+	    width: 100%;
+	    left: 0;
+	    right: 0;
+	    height: 100%;
+	    opacity: 0.3;
+	}
+
+	.hero-image {
+	    background-size: cover;
+	    position: relative;
+	    width: 100%;
+	    height: 100vh;
+	    background-color: lightgray;
+	    background-image: url('https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
+	    display: table;
+	      background-position: center;
+	}
+
+
+	.hero-image .about-me a {
+	    display: inline-block;
+	    text-decoration: none;
+	    color: #fff;
+	    padding: 10px 20px;
+	    border: 1px solid white;
+	    margin: 20px;
+	}
+
+
+	.navbar-demo {
+	    display: table;
+	    width: 100%;
+	    position: fixed;
+	    z-index: 99;
+	}
+
+	.navbar-demo .nav-bar ul li {
+	    display: block;
+	}
+
+	.navbar-demo .nav-bar ul {
+	    padding: 0;
+	    display: table;
+	    text-align: center;
+	    display:flex;
+	    flex-wrap:wrap;
+	    justify-content:center;
+	    align-items: center;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.navbar-demo .nav-bar ul li a {
+	    font-size: 18px;
+	    display: inline-block;
+	    text-align: center;
+	    text-decoration: none;
+	    color: #000;
+	    padding: 18px;
+	    text-transform: uppercase;
+	}
+
+	.nav-bar {
+	    text-align: center;
+	    display:flex;
+	    flex-wrap:wrap;
+	    justify-content:center;
+	    align-items: center;
+	    position: relative;
+	}
+	.navbar-demo button.menu-btn {
+	    display:none;
+	}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+   .navbar-demo  button.menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: unset;
+        border: 0;
+        font-size: 26px;
+        display:block;
+        padding: 23px;
+        color: #fff;
+        outline: none;
+    } 
+    .navbar-demo{
+	    height:100%;
+	    z-index: 999;
+	}
+    .navbar-demo .nav-bar {
+        left: -950px;
+        background-color: #000000d9;
+        transition: 1s;
+        height: 100%;
+    }
+
+	.navbar-demo.open-nav  .nav-bar{
+	    left: 0;
+	    width: 100%;
+	    transition: left 0.5s;
+	    height: 100%;
+	}
+
+	.navbar-demo .nav-bar ul li a {
+	     display: block;
+	     color: #fff;
+	}
+	.navbar-demo.open-nav button.menu-btn i:before {
+	    content: '\f00d ';
+	}
+}
