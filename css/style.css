@@ -50,7 +50,7 @@
 	cursor:pointer;
 	text-decoration:none;
 }*/
-.navbar-demo {
+/*.navbar-demo {
 	display: table;
 	width: 100%;
 	position: fixed;
@@ -133,7 +133,7 @@
 .navbar-demo.open-nav button.menu-btn i:before {
 	content: '\f00d ';
 }
-}
+}*/
 #container-fluid {
     height: auto;
     width: auto;
@@ -170,9 +170,9 @@
 	color: rgb(248, 246, 246);
 }
 .fa-laptop-code{
-	height: 40px;
-	font-size: 2.5em;
-	color: rgb(13, 10, 235);
+	height: 30px;
+	font-size: 2.0em;
+	color: rgb(253, 44, 44);
 }
 .menu-icon{
 	font-size: 2.4em;
@@ -180,6 +180,7 @@
 	line-height: 40px;
 }
 
+/*
 nav{
 	position: absolute;
 	background-color: black;
@@ -211,7 +212,8 @@ nav ul{
 nav ul li a:hover,nav ul li a:focus{
 	text-shadow: 1px 1px 5px blue;
 	font-size: 120%;
-}
+}*/
+
 #checkbox{
 	display: none;
 }
