@@ -4,7 +4,7 @@
 
 👋 Hi, Amigo <br>
 I am Subramanya K S.This is my personal website hosted on Github.
-You can check my latest work in this website
+You can check my latest work in this website.
 
 
 
@@ -17,6 +17,9 @@ You can check my latest work in this website
 * BootStrap
 
 Live: https://subramanyaks.github.io/
+
+If you like this don't forget to ⭐ the repository.
+
 
 Thank You for visiting
 Have a nice day 😊 
