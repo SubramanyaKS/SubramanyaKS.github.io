@@ -1,4 +1,4 @@
-<center># My Personal Website.</center>
+# My Personal Website.
 
 <a href="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge"></a>
 ![Repository Size](https://img.shields.io/github/repo-size/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
