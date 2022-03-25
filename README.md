@@ -9,8 +9,6 @@ I am Subramanya K S.This is my personal website hosted on Github.
 You can check my latest work in this website.
 
 
-
-
 #### Technology used
 * HTML
 * CSS
@@ -18,6 +16,8 @@ You can check my latest work in this website.
 * VS Code.
 * BootStrap
 
+#### Deployment 
+The website is deployed in Github Pages 
 Live: https://subramanyaks.github.io/
 
 If you like this don't forget to ⭐ the repository.
