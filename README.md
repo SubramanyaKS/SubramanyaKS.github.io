@@ -21,6 +21,12 @@ You can check my latest work in this website.
 The website is deployed in Github Pages 
 Live: https://subramanyaks.github.io/
 
+Or you can scan the bellow QR code.
+
+<img  src="" alt="QR Code" width="100%" height="230">
+
+
+
 If you like this don't forget to ⭐ the repository.
 
 
