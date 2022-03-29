@@ -23,7 +23,7 @@ Live: https://subramanyaks.github.io/
 
 Or you can scan the bellow QR code.
 
-<img  src="" alt="QR Code" width="100%" height="230">
+<img  src="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/MyWebsireQRCode.png" alt="QR Code" width="50%" height="50%">
 
 
 
