@@ -537,8 +537,9 @@ nav ul li a:hover,nav ul li a:focus{
 }*/
 .btn{
 	background-color: #4169E1;
-	outline:none;
-	border:none;
+	
+	height:60px;
+	width:140px;
 
 }
 .btn:hover{
@@ -548,8 +549,8 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:0.5s;
 }
 .btn1{
-		height:40px;
-		width:145px;
+		height:10px;
+		width:100px;
 		outline:none;
 		border:none;
 		background-color:black;
