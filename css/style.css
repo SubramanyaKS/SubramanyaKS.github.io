@@ -306,6 +306,7 @@ nav ul li a:hover,nav ul li a:focus{
   text-align: center;
   text-decoration: none;
   margin: 5px 3px;
+  border-radius: 50%;
 }
 .fa {
 	padding: 10px;
@@ -315,33 +316,38 @@ nav ul li a:hover,nav ul li a:focus{
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 3px;
+	border-radius: 50%;
 }
 .fa-twitter{
-	background: rgb(15, 15, 15);
+	background: #800000;
   	color: rgb(100, 128, 248);
 }
-.fa-facebook{
-	background: rgb(98, 36, 243);
-  	color: rgb(245, 245, 248);
+.fa-facebook-f{
+	background: #800000;
+  	color: rgb(23, 23, 243);
 }
 .fa-youtube{
-	background: rgb(12, 12, 12);
-  	color: rgb(245, 240, 240);
+	background:#800000;
+ 	color: rgb(245, 240, 240);
 }
 .fa-google{
-	background: rgb(12, 12, 12);
+	background:#be0404;
   	color: rgb(245, 240, 240);
 }
 .fa-linkedin {
- background: blue;
-  color: white;
+ background: #800000;
+  color: rgb(10, 26, 247);
 }
 .fa-github {
-	background-color: #000;
+	background-color:#0a0a0a;
   color: rgb(243, 242, 242);
 }
+.contact .fa-github {
+	background-color:#800000;
+  color: rgb(126, 122, 122);
+}
 .fa-hackerrank {
- background: black;
+ background: #800000;
   color: white;
 }
 .iconify{
@@ -352,8 +358,9 @@ nav ul li a:hover,nav ul li a:focus{
   text-align: center;
   text-decoration: none;
   margin: 5px 3px;
-  background: black;
+  background:#800000;
   color: white;
+  border-radius: 50%;
 }
 .main h5{
 	font-size:1.4rem;
