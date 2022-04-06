@@ -56,6 +56,8 @@
   </head>
   <body style="background-color:#800000">
 
+	<div id="loader"> </div>
+
   <!--Nav Bar Section-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i></a>
@@ -371,5 +373,12 @@
 	<footer style="background-color:#800000">
 		<p class="text-center" ><b>&copy;2022. Designed with <i class="fas fa-heart" style="color: red;"></i> by Subramanya K S.All rights reserved.</b></p>
 	</footer>
+	<script>
+		var loader=document.getElementById("loader");
+		window.addEventListener("load",function () {
+			loader.style.display="none";
+		}	
+		)
+	</script>
   </body>
 </html>
