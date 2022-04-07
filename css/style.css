@@ -665,7 +665,8 @@ nav ul li a:hover,nav ul li a:focus{
 }
 
 .card{
-	background-color:#800000;
+	background-color: #be0404 !important;
+	opacity: 100%;
 	margin-bottom:10px;
 	margin-left:10px;
 	border-radius:0;
@@ -676,10 +677,10 @@ nav ul li a:hover,nav ul li a:focus{
 	width:30rem;
 }
 .card h5{
-	color:#000000;
+	color:#f5eeee;
 }
 .card p{
-	color: #000000;
+	color: #fffbfb;
 }
 .card:hover{
 	background-color:#800080;
