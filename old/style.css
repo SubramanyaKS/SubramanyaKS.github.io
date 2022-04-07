@@ -1,48 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-* {
-
+*{
 	padding:0;
 	margin:0;
 	box-sizing: border-box;
-	
 }
-
-.body{
-	padding: 0%;
-	background-image:url('../images/bg3.jpg');
-	background-repeat:no-repeat;
-	background-size: cover;
-	
-}
-#loader{
-	width: 100%;
-	height: 100%;
-	background: #800000 url(../images/Eclipse2.gif) no-repeat center;
-	position: fixed;
-	z-index: 100;
-}
-.html,.body{
+.html{
      width:100%;
      height:100%;
-     margin:0;
-     padding:0;
+     margin:0px;
+     padding:0px;
      overflow-x:hidden;
 	 margin-bottom: 0;
-	 margin-right: 0rem;
-	 background-image:url('../images/bg3.jpg');
-	background-repeat:no-repeat;
-	background-size: cover;
-	 
 }
-
-/*.navbar{
+.body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+	margin-bottom: 0;
+}
+.navbar{
 	background-color:black;
 }
 
 .nav-link{
 	color:blue;
 	font-size:1rem;
-	font-weight:600;
+	font-weight:700;
 	cursor:pointer;
 	text-decoration:none;
 }
@@ -57,147 +41,52 @@
 	color:blue;
 	cursor:pointer;
 	text-decoration:none;
-}*/
-/*.navbar-demo {
-	display: table;
-	width: 100%;
-	position: fixed;
-	z-index: 99;
 }
-
-.navbar-demo .nav-bar ul li {
-	display: block;
-}
-
-.navbar-demo .nav-bar ul {
-	padding: 0;
-	display: table;
-	text-align: center;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	align-items: center;
-	margin: 0;
-	padding: 0;
-}
-
-.navbar-demo .nav-bar ul li a {
-	font-size: 18px;
-	display: inline-block;
-	text-align: center;
-	text-decoration: none;
-	color: rgb(245, 239, 239);
-	padding: 18px;
-	text-transform: uppercase;
-}
-
-.nav-bar {
-	text-align: center;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	align-items: center;
-	position: relative;
-}
-.navbar-demo button.menu-btn {
-	display:none;
-}
-
-@media only screen and (max-width: 767px){
-.navbar-demo  button.menu-btn {
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-color: unset;
-	border: 0;
-	font-size: 26px;
-	display:block;
-	padding: 23px;
-	color: #fff;
-	outline: none;
-} 
-.navbar-demo{
-	height:100%;
-	z-index: 999;
-}
-.navbar-demo .nav-bar {
-	left: -950px;
-	background-color: #000000d9;
-	transition: 1s;
-	height: 100%;
-}
-
-.navbar-demo.open-nav  .nav-bar{
-	left: 0;
-	width: 100%;
-	transition: left 0.5s;
-	height: 100%;
-}
-
-.navbar-demo .nav-bar ul li a {
-	 display: block;
-	 color: #fff;
-}
-.navbar-demo.open-nav button.menu-btn i:before {
-	content: '\f00d ';
-}
-}*/
 #container-fluid {
-    height: auto;
-    width: auto;
+    height: 500px;
+    width: 1024px;
     margin: auto;
     position:relative;
-    top: 60rem;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 0;
-	padding-right: 0;
+    top: 60px;
 }
-#main{
-	background:url(./images/bg3.jpg)no-repeat;
- 	 background-size: cover;
-  	background-position: center;
-	text-align: center;	
-}
-#preloader{
-	background:#0f0f0f url(../images/preloader.gif) no-repeat center;
-	background-size: 25%;
-	height: 100%;
+.main{
+	background:url(./images/bg2.jpg)no-repeat;
+	background-size:cover;
+	text-align: center;
 	width:100%;
-	position: fixed;
-	z-index: 100;
-
+	height:95vh;
+	margin:auto;
+	
 }
-/*header{
-	height: auto;
+header{
+	height: 80px;
 	background-color: black;
 	padding: 10px 5px;
 }
 .menu-wrap{
 	display: flex;
 	justify-content: space-between;
-	padding: 0 10px;
-}*/
+	padding: 0 15px;
+}
 #fal.fal{
 	font-size: 200%;
 }
 .fa-bars{
 	height: 50px;
-	font-size: 2.5em;
+	font-size: 2.4em;
 	color: rgb(248, 246, 246);
 }
 .fa-laptop-code{
-	height: 30px;
-	font-size: 2.0em;
-	color: rgb(253, 44, 44);
+	height: 50px;
+	font-size: 3.5em;
+	color: rgb(245, 8, 8);
 }
 .menu-icon{
 	font-size: 2.4em;
 	color: white;
-	line-height: 40px;
+	line-height: 50px;
 }
 
-/*
 nav{
 	position: absolute;
 	background-color: black;
@@ -229,13 +118,12 @@ nav ul{
 nav ul li a:hover,nav ul li a:focus{
 	text-shadow: 1px 1px 5px blue;
 	font-size: 120%;
-}*/
-
+}
 #checkbox{
 	display: none;
 }
 #checkbox:checked ~ nav ul{
-	max-height: 100%;
+	max-height: 140px;
 	padding: 15px 0;
 	transition: all 0.5s;
 }
@@ -246,12 +134,9 @@ nav ul li a:hover,nav ul li a:focus{
 	font-family:cursive;
 }
 .experience{
-	background-image:url('../images/bg3.jpg');background-repeat:no-repeat;
-	background-size: cover;
-	margin:0;
+	background-color:#4eeb1f;
+	margin:auto;
 	text-align:center;
-	width: 100%;
-	height: 100%;
 }
 
 /*.animated-text span.active{
@@ -311,60 +196,27 @@ nav ul li a:hover,nav ul li a:focus{
   display: inline-block;
   line-height: 1em;
 }*/
-.name{
-	color: rgb(10, 194, 250);
-}
 
-.contact .fab {
+.fab {
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   height:55px;
   width: 60px;
   text-align: center;
   text-decoration: none;
   margin: 5px 3px;
-  border-radius: 50%;
 }
-.fa {
-	padding: 10px;
-	font-size: 30px;
-	height:55px;
-	width: 60px;
-	text-align: center;
-	text-decoration: none;
-	margin: 5px 3px;
-	border-radius: 50%;
-}
-.fa-twitter{
-	background: #800000;
-  	color: rgb(100, 128, 248);
-}
-.fa-facebook-f{
-	background: #800000;
-  	color: rgb(23, 23, 243);
-}
-.fa-youtube{
-	background:#800000;
- 	color: rgb(245, 240, 240);
-}
-.fa-google{
-	background:#be0404;
-  	color: rgb(245, 240, 240);
-}
+
 .fa-linkedin {
- background: #800000;
-  color: rgb(10, 26, 247);
+ background: blue;
+  color: white;
 }
 .fa-github {
-	background-color:#0a0a0a;
-  color: rgb(243, 242, 242);
-}
-.contact .fa-github {
-	background-color:#800000;
-  color: rgb(126, 122, 122);
+ background: black;
+  color: white;
 }
 .fa-hackerrank {
- background: #800000;
+ background: black;
   color: white;
 }
 .iconify{
@@ -375,9 +227,8 @@ nav ul li a:hover,nav ul li a:focus{
   text-align: center;
   text-decoration: none;
   margin: 5px 3px;
-  background:#800000;
+  background: black;
   color: white;
-  border-radius: 50%;
 }
 .main h5{
 	font-size:1.4rem;
@@ -386,33 +237,14 @@ nav ul li a:hover,nav ul li a:focus{
 	text-decoration: underline;
 	/*line-height:1;
 	border-bottom:2px solid rgb(233,10,109);*/
-	width:auto;
+	width:100%;
 	color:#ff9900;
 }
-.wave {
-	animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-	animation-duration: 2.5s;        /* Change to speed up or slow down */
-	animation-iteration-count: infinite;  /* Never stop waving :) */
-	transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-	display: inline-block;
-  }
-  
-  @keyframes wave-animation {
-	  0% { transform: rotate( 0.0deg) }
-	 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-	 20% { transform: rotate(-8.0deg) }
-	 30% { transform: rotate(14.0deg) }
-	 40% { transform: rotate(-4.0deg) }
-	 50% { transform: rotate(10.0deg) }
-	 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-	100% { transform: rotate( 0.0deg) }
-  }
-  
 .main h6{
 	font-size:1.0rem;
 	text-align:center;
 	text-transform:uppercase;
-	width:auto;
+	width:100%;
 	color:blue;
 }
 /*.main .bt1{
@@ -445,26 +277,15 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:0.5s;
 	color:white;
 }*/
-@media only screen and (max-width: 768px) {
-	.body {
-	  background-color: rgb(168, 186, 192);
-	}
-  }
 .about{
-	background-image:url('../images/bg3.jpg');
-	background-repeat:no-repeat;
-	background-size: cover;
-	height: 100%;
+	background-color:#00FFFF;
 	margin:auto;
-	text-align:center;
 }
 .about h1{
 	font-size:4.4rem;
 	color:black;
 }
 .about img{
-	width: auto;
-	height: auto;
 	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
@@ -497,7 +318,7 @@ nav ul li a:hover,nav ul li a:focus{
   padding: 0px;
   font-size: 20px;
   height:20px;
-  width: 100%;
+  width: 600px;
   text-align: left;
   text-decoration: none;
   margin: 5px 3px;
@@ -506,7 +327,7 @@ nav ul li a:hover,nav ul li a:focus{
   padding: 0px;
   font-size: 20px;
   height:20px;
-  width: 100%;
+  width: 600px;
   text-align: left;
   text-decoration: none;
   margin: 5px 3px;
@@ -580,9 +401,8 @@ nav ul li a:hover,nav ul li a:focus{
 }*/
 .btn{
 	background-color: #4169E1;
-	
-	height:60px;
-	width:140px;
+	outline:none;
+	border:none;
 
 }
 .btn:hover{
@@ -592,8 +412,8 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:0.5s;
 }
 .btn1{
-		height:10px;
-		width:100px;
+		height:40px;
+		width:145px;
 		outline:none;
 		border:none;
 		background-color:black;
@@ -607,11 +427,8 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:0.5s;
 }
 .education{
-	background-image:url('../images/bg3.jpg');
-	background-repeat:no-repeat;
-	background-size: cover;
+	background-color:#87CEFA;
 	margin:auto;
-	text-align:center;
 	
 }
 .education img{
@@ -623,7 +440,7 @@ nav ul li a:hover,nav ul li a:focus{
 .right {
   position: absolute;
   right: 0px;
-  width: 100%;
+  width: 300px;
   padding: 10px;
 }
 
@@ -634,39 +451,12 @@ nav ul li a:hover,nav ul li a:focus{
   font-size: 1.5rem;
 }
 .project{
-	background-image:url('../images/bg3.jpg');
-	background-repeat:no-repeat;
-	background-size: cover;
+	background-color:#4169E1;
 	margin:auto;
 	text-align:center;
-	width: 100%;
 }
-.column {
-		float: left;
-		width: 25%;
-		padding: 0 10px;
-	  
-}
-.row {
-	margin: 0;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
-@media screen and (max-width: 738px) {
-	.column {
-	  width: 100%;
-	  display: block;
-	  margin-bottom: 20px;
-	}
-}
-
 .card{
-	background-color: #be0404 !important;
-	opacity: 100%;
+	background-color:#00FFFF;
 	margin-bottom:10px;
 	margin-left:10px;
 	border-radius:0;
@@ -674,30 +464,23 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:all 0.3s ease-in;
 	-webkit-transition:all 0.3s ease-in;
 	-moz-transition:all 0.3s ease-in;
-	width:30rem;
 }
 .card h5{
-	color:#f5eeee;
-}
-.card p{
-	color: #fffbfb;
+	color:#000000;
 }
 .card:hover{
 	background-color:#800000 !important;
 	transition:0.5s;
-	transform: scale(1.1);
 	color:#00FFFF;
 	border-radius:5px;
 	border:none;
-	box-shadow:5px,5px,10px,#f3b0b0;
+	box-shadow:5px,5px,10px,#9E9E9E;
 }
 .card:hover h5{
 	color:blue;
 }
 .contact{
-	background-image:url('../images/bg3.jpg');
-	background-repeat:no-repeat;
-	background-size: cover;
+	background-color:#00CED1;
 	margin:auto;
 }
 
@@ -729,6 +512,14 @@ textarea{
 textarea::placeholder{
 	color:white;
 }
+.fa-youtube-play{
+	background: black;
+  	color: white;
+}
+.contract-connect{
+	text-align: center;
+	
+}
 .submit{
 	background-color:black;
 	padding:4px;
@@ -741,57 +532,10 @@ textarea::placeholder{
 	color:#fff;
 	border:#000;
 }
-@media only screen and (max-width: 768px) { 
-	.main .about .experience .education .project .contact {
+@media only screen and (max-width: 480px) { 
+	.main .above .education .project .contact {
 		width: 100%;
-		height: 100%;
-		text-align:center;
-		display:block;
-		font-size: medium;
-	}
-        
-}
-@media only screen and (min-width: 200px) { 
-	.html .experience .education .project .contact {
-		width: 100%;
-		height: 100;
 		text-align:center;
 		display:block;
 	}
-        
-}
-.neo-button {
-    width: 40px;
-    height: 40px;
-    outline: 0 !important;
-    cursor: pointer;
-    color: #fff;
-    font-size: 15px;
-    border: none;
-    margin-right: 20px;
-    border-radius: 50%;
-    background: linear-gradient(150deg, #f32f2f, #be0404);
-    box-shadow: 20px 20px 60px #f36c6c, -20px -20px 60px #ce7373
-}
-
-.neo-button:active {
-    border-radius: 50%;
-    background: linear-gradient(150deg, #d6d6d6, #ffffff);
-    box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
-}
-.card-body .fa-github {
-  color: rgb(248, 248, 248)!important;
-  font-size: 24px;
-}
-.card-body .fa-share-square{
- color: rgb(22, 21, 21);
-}
-.card-body .fa-download{
-	color: rgb(22, 21, 21);
-}
-.about p{
-	color: #fff;
-}
-p,h1,h2,h3,h5,h6,i{
-	color: rgb(248, 248, 248);
 }
