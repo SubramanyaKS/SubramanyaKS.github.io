@@ -686,7 +686,7 @@ nav ul li a:hover,nav ul li a:focus{
 	background-color:#800000 !important;
 	transition:0.5s;
 	transform: scale(1.1);
-	color:#00FFFF;
+
 	border-radius:5px;
 	border:none;
 	box-shadow:5px,5px,10px,#f3b0b0;
