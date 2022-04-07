@@ -683,7 +683,7 @@ nav ul li a:hover,nav ul li a:focus{
 	color: #fffbfb;
 }
 .card:hover{
-	background-color:#800080;
+	background-color:#800000 !important;
 	transition:0.5s;
 	transform: scale(1.1);
 	color:#00FFFF;
