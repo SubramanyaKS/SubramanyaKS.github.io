@@ -665,7 +665,8 @@ nav ul li a:hover,nav ul li a:focus{
 }
 
 .card{
-	background-color: #be0404 !important;
+	background: linear-gradient(120deg, #ff0606, #990202) !important;
+	/*background-color: #be0404 !important;*/
 	opacity: 100%;
 	margin-bottom:10px;
 	margin-left:10px;
@@ -674,7 +675,7 @@ nav ul li a:hover,nav ul li a:focus{
 	transition:all 0.3s ease-in;
 	-webkit-transition:all 0.3s ease-in;
 	-moz-transition:all 0.3s ease-in;
-	width:30rem;
+	width:25rem;
 }
 .card h5{
 	color:#f5eeee;
