@@ -465,6 +465,8 @@ nav ul li a:hover,nav ul li a:focus{
 .about img{
 	width: auto;
 	height: auto;
+	border-radius: 50%;
+	background-color: #800000;
 	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
 	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
