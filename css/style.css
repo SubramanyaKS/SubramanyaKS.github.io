@@ -17,7 +17,7 @@
 #loader{
 	width: 100%;
 	height: 100%;
-	background: #800000 url(../images/Eclipse2.gif) no-repeat center;
+	background: #800000 url(../images/Gear.gif) no-repeat center;
 	position: fixed;
 	z-index: 100;
 }
