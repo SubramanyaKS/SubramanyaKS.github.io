@@ -345,8 +345,9 @@ nav ul li a:hover,nav ul li a:focus{
 }
 .fa-angle-up{
 	color: rgb(245, 240, 240);
-	 font-size:25px;
-	 padding: 0;
+	 font-size:20px;
+	 padding: 15px;
+	 margin:0;
 }
 .fa-arrow-circle-up{
  	color: rgb(245, 240, 240);
