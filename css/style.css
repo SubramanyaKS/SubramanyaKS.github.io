@@ -228,8 +228,20 @@ p,h1,h2,h3,h5,h6,i{
   text-decoration: none;
   margin: 5px 3px;
 }
-
-.btn{
+.btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
+/*.btn{
 	background-color: #4169E1;
 	
 	height:60px;
@@ -241,7 +253,7 @@ p,h1,h2,h3,h5,h6,i{
 	color:black;
 	border:1px solid black;
 	transition:0.5s;
-}
+}*/
 .btn1{
 		height:10px;
 		width:100px;
