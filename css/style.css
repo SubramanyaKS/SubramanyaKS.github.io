@@ -231,10 +231,11 @@ p,h1,h2,h3,h5,h6,i{
 .btn {
 	background-color: DodgerBlue;
 	border: none;
-	color: white;
+	color: rgb(255, 255, 255);
 	padding: 12px 30px;
 	cursor: pointer;
 	font-size: 20px;
+	
   }
   
   /* Darker background on mouse-over */
@@ -265,7 +266,7 @@ p,h1,h2,h3,h5,h6,i{
 }
 .btn1:hover{
 	background-color:transparent;
-	color:black;
+	color:rgb(236, 231, 231);
 	border:1px solid black;
 	transition:0.5s;
 }
@@ -275,9 +276,11 @@ p,h1,h2,h3,h5,h6,i{
 	background-size: cover;
 	margin:auto;
 	text-align:center;
-	
+	height: 100%;
 }
 .education img{
+	width: 200px;
+	height: 200px;
 	background-color: #f80808;
 	align-items:center;
 	-webkit-box-shadow:6px 4px 29px -14px rgba(252, 249, 249, 0.75);
