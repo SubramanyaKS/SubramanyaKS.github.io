@@ -339,7 +339,11 @@ p,h1,h2,h3,h5,h6,i{
 	  margin-bottom: 20px;
 	}
 }
-
+.horizon{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 .card{
 	/*background: linear-gradient(120deg, #ff0606, #990202) !important;*/
 	background-color: #fa0808 !important;
