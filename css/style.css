@@ -173,10 +173,10 @@ p,h1,h2,h3,h5,h6,i{
 	width: auto;
 	height: auto;
 	border-radius: 50%;
-	background-color: #800000;
-	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
-	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
-	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+	background-color: #f80808;
+	-webkit-box-shadow:6px 4px 29px -14px rgba(248, 9, 9, 0.75);
+	-moz-box-shadow:6px 4px 29px -14px rgba(245, 7, 7, 0.75);
+	box-shadow:6px 4px 29px -14px rgba(245, 5, 5, 0.75);
 }
 .about p{
 	font-size:1.25rem;
@@ -278,10 +278,12 @@ p,h1,h2,h3,h5,h6,i{
 	
 }
 .education img{
+	background-color: #f80808;
 	align-items:center;
-	-webkit-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
-	-moz-box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
-	box-shadow:6px 4px 29px -14px rgba(0,0,0,0.75);
+	-webkit-box-shadow:6px 4px 29px -14px rgba(252, 249, 249, 0.75);
+	-moz-box-shadow:6px 4px 29px -14px rgba(245, 243, 243, 0.75);
+	box-shadow:6px 4px 29px -14px rgba(253, 4, 4, 0.75);
+	border-radius: 50%;
 }
 .right {
   position: absolute;
