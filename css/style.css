@@ -341,8 +341,8 @@ p,h1,h2,h3,h5,h6,i{
 }
 
 .card{
-	background: linear-gradient(120deg, #ff0606, #990202) !important;
-	/*background-color: #be0404 !important;*/
+	/*background: linear-gradient(120deg, #ff0606, #990202) !important;*/
+	background-color: #fa0808 !important;
 	opacity: 100%;
 	margin-bottom:10px;
 	margin-left:10px;
