@@ -36,7 +36,7 @@ Or you can scan the bellow QR code.
 | Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
 | Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
-#### License
+#### 📝 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
