@@ -12,14 +12,15 @@ I am Subramanya K S.This is my personal website hosted on Github.
 You can check my latest work in this website.
 
 
-#### Technology used
+### Technology used
 * HTML
 * CSS
 * Javascript.
 * VS Code.
 * BootStrap
 
-#### Deployment 
+### Deployment.
+
 The website is deployed in Github Pages 
 Live: https://subramanyaks.github.io/
 
@@ -36,7 +37,7 @@ Or you can scan the bellow QR code.
 | Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
 | Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
-#### 📝 License
+### 📝 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
