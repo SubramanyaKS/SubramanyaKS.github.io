@@ -37,7 +37,7 @@ function send(event) {
         event.preventDefault();
 		Email.send({
 			name:document.getElementById('name').value, 
-			SecureToken : "e56b27ea-1135-4ec1-864f-a7204c4fcaf9",
+			SecureToken : "",
 			To : 'connectwithsubbu@gmail.com',
 			From : document.getElementById('email').value,
 			Subject : document.getElementById('subject').value,
