@@ -575,6 +575,24 @@ p,h1,h2,h3,h5,h6,i{
 	cursor:pointer;
 	
 }
+.button {
+	background-color: #f70808;
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: auto;
+  }
+  @media only screen and (max-width: 768px) { 
+	  .button{
+		  width:auto;
+	  }
+  }
 input{
 	padding:10px;
 	margin:10px;
