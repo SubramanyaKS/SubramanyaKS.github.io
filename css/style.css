@@ -488,10 +488,18 @@ p,h1,h2,h3,h5,h6,i{
 	  background: #800000;
 		color: rgb(100, 128, 248);
   }
+  .fa-twitter:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .fa-facebook-f{
 	  background: #800000;
 		color: rgb(23, 23, 243);
   }
+  .fa-facebook-f:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .fa-angle-up{
 	  color: rgb(245, 240, 240);
 	   font-size:20px;
@@ -507,14 +515,26 @@ p,h1,h2,h3,h5,h6,i{
 	  background:#800000;
 	   color: rgb(245, 240, 240);
   }
+  .fa-youtube:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .fa-google{
 	  background:#be0404;
 		color: rgb(245, 240, 240);
   }
+  .fa-google:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .fa-linkedin {
    background: #800000;
 	color: rgb(10, 26, 247);
   }
+  .fa-linkedin:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .fa-github {
 	  background-color:#0a0a0a;
 	color: rgb(243, 242, 242);
@@ -523,10 +543,18 @@ p,h1,h2,h3,h5,h6,i{
 	  background-color:#800000;
 	color: rgb(126, 122, 122);
   }
+  .contact .fa-github:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .fa-hackerrank {
    background: #800000;
 	color: white;
   }
+  .fa-hackerrank:hover{
+	background: #ff2205;
+	  color: rgb(100, 128, 248);
+}
   .iconify{
 	padding: 10px;
 	font-size: 20px;
