@@ -593,6 +593,9 @@ p,h1,h2,h3,h5,h6,i{
 		  width:auto;
 	  }
   }
+  .fa-android{
+	  color: #25f709;
+  }
 input{
 	padding:10px;
 	margin:10px;
