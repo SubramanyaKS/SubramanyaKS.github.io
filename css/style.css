@@ -590,6 +590,9 @@ p,h1,h2,h3,h5,h6,i{
 	cursor: pointer;
 	width: auto;
   }
+  .button:hover{
+	  background-color: #800000;
+  }
   @media only screen and (max-width: 768px) { 
 	  .button{
 		  width:auto;
