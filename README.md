@@ -19,50 +19,11 @@ You can check my latest work and about my details in this website.
 ├─ LICENSE
 ├─ README.md
 ├─ css
-│  ├─ bootstrap.css
-│  ├─ bootstrap.css.map
-│  ├─ bootstrap.min.css
-│  ├─ bootstrap.min.css.map
 │  └─ style.css
 ├─ images
-│  ├─ Eclipse1.gif
-│  ├─ Eclipse2.gif
-│  ├─ Gear.gif
-│  ├─ MyWebsireQRCode.png
-│  ├─ Subramanya.gif
-│  ├─ Thesparks.jpg
-│  ├─ bg.jpg
-│  ├─ bg2.jpg
-│  ├─ bg3.jpg
-│  ├─ bg_1.jpg
-│  ├─ bus.jpg
-│  ├─ cal.jpg
-│  ├─ diabeties.jpg
-│  ├─ ekathva.jpg
-│  ├─ ekatvaI.jpg
-│  ├─ heart.jpg
-│  ├─ logo.png
-│  ├─ logo1.png
-│  ├─ logo2.png
-│  ├─ media.jpg
-│  ├─ scholar.jpg
-│  ├─ scholar.png
-│  ├─ sparks.jpg
-│  ├─ subbu.jpg
-│  ├─ subbu1.jpg
-│  ├─ subbu1.png
-│  ├─ subbu3.jpg
-│  └─ weather.jpg
+│  
 ├─ index.html
 ├─ js
-│  ├─ bootstrap.bundle.js
-│  ├─ bootstrap.bundle.js.map
-│  ├─ bootstrap.bundle.min.js
-│  ├─ bootstrap.bundle.min.js.map
-│  ├─ bootstrap.js
-│  ├─ bootstrap.js.map
-│  ├─ bootstrap.min.js
-│  ├─ bootstrap.min.js.map
 │  └─ myweb.js
 └─ navbar.html
 ```
