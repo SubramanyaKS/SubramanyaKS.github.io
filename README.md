@@ -39,7 +39,7 @@ You can check my latest work and about my details in this website.
 
 ### Run project.
 
-1. clone the repository using ` git clone `
+1. clone the repository using ` git clone https://github.com/SubramanyaKS/SubramanyaKS.github.io.git `
 2. run the `index.html` file
 
 ### Deployment.
