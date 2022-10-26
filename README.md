@@ -36,6 +36,12 @@ You can check my latest work and about my details in this website.
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 * ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+
+### Run project.
+
+1. clone the repository using ` git clone `
+2. run the `index.html` file
+
 ### Deployment.
 
 The website is deployed in Github Pages 
@@ -43,10 +49,9 @@ Live: https://subramanyaks.github.io/
 
 Or you can scan the bellow QR code.
 
-<img  src="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/MyWebsireQRCode.png" alt="QR Code" width="25%" height="25%">
+<img  src="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/MyWebsireQRCode.png" alt="QR Code" width="20%" height="20%">
 
 
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
 ### 📝 License
 
