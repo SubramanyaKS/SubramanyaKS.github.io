@@ -3,7 +3,6 @@
 <a href="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge"></a>
 ![Repository Size](https://img.shields.io/github/repo-size/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
 ![Lines of Codes](https://img.shields.io/tokei/lines/github.com/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/SubramanyaKS/Subramanyaks.github.io?style=for-the-badge)
 
 <img src ="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/image-readme.png" alt = "website-preview"/>
@@ -21,7 +20,7 @@ You can check my latest work and about my details in this website.
 ├─ css
 │  └─ style.css
 ├─ images
-│  
+│  └─ all images
 ├─ index.html
 ├─ js
 │  └─ myweb.js
