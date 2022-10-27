@@ -3,7 +3,6 @@
 <a href="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge"></a>
 ![Repository Size](https://img.shields.io/github/repo-size/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
 ![Lines of Codes](https://img.shields.io/tokei/lines/github.com/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/SubramanyaKS/Subramanyaks.github.io?style=for-the-badge)
 
 <img src ="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/image-readme.png" alt = "website-preview"/>
@@ -19,50 +18,11 @@ You can check my latest work and about my details in this website.
 ├─ LICENSE
 ├─ README.md
 ├─ css
-│  ├─ bootstrap.css
-│  ├─ bootstrap.css.map
-│  ├─ bootstrap.min.css
-│  ├─ bootstrap.min.css.map
 │  └─ style.css
 ├─ images
-│  ├─ Eclipse1.gif
-│  ├─ Eclipse2.gif
-│  ├─ Gear.gif
-│  ├─ MyWebsireQRCode.png
-│  ├─ Subramanya.gif
-│  ├─ Thesparks.jpg
-│  ├─ bg.jpg
-│  ├─ bg2.jpg
-│  ├─ bg3.jpg
-│  ├─ bg_1.jpg
-│  ├─ bus.jpg
-│  ├─ cal.jpg
-│  ├─ diabeties.jpg
-│  ├─ ekathva.jpg
-│  ├─ ekatvaI.jpg
-│  ├─ heart.jpg
-│  ├─ logo.png
-│  ├─ logo1.png
-│  ├─ logo2.png
-│  ├─ media.jpg
-│  ├─ scholar.jpg
-│  ├─ scholar.png
-│  ├─ sparks.jpg
-│  ├─ subbu.jpg
-│  ├─ subbu1.jpg
-│  ├─ subbu1.png
-│  ├─ subbu3.jpg
-│  └─ weather.jpg
+│  └─ all images
 ├─ index.html
 ├─ js
-│  ├─ bootstrap.bundle.js
-│  ├─ bootstrap.bundle.js.map
-│  ├─ bootstrap.bundle.min.js
-│  ├─ bootstrap.bundle.min.js.map
-│  ├─ bootstrap.js
-│  ├─ bootstrap.js.map
-│  ├─ bootstrap.min.js
-│  ├─ bootstrap.min.js.map
 │  └─ myweb.js
 └─ navbar.html
 ```
@@ -70,11 +30,17 @@ You can check my latest work and about my details in this website.
 
 ### Technology/Tools used
 
-* HTML
-* CSS
-* Javascript.
-* VS Code.
-* BootStrap
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+* ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+
+### Run project.
+
+1. clone the repository using ` git clone https://github.com/SubramanyaKS/SubramanyaKS.github.io.git `
+2. run the `index.html` file
 
 ### Deployment.
 
@@ -83,20 +49,15 @@ Live: https://subramanyaks.github.io/
 
 Or you can scan the bellow QR code.
 
-<img  src="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/MyWebsireQRCode.png" alt="QR Code" width="25%" height="25%">
+<img  src="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/MyWebsireQRCode.png" alt="QR Code" width="20%" height="20%">
 
-#### Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
 ### 📝 License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is under the [MIT](https://choosealicense.com/licenses/mit/) license. you can check the details in `LICENSE.md` file
+
+
 
 If you like this don't forget to ⭐ the repository.
 
