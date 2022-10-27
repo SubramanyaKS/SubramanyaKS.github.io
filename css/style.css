@@ -50,6 +50,9 @@
   	background-position: center;
 	text-align: center;	
 }
+.nav-link b{
+	color: #fff;
+}
 /*#preloader{
 	background:#0f0f0f url(../images/preloader.gif) no-repeat center;
 	background-size: 25%;
