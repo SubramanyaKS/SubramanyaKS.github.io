@@ -59,6 +59,11 @@ Or you can scan the bellow QR code.
 <img  src="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/MyWebsireQRCode.png" alt="QR Code" width="20%" height="20%">
 
 ---
+### Credits
+
+* for icons in skills [icons8](https://icons8.com/license)
+* fontawesome
+
 
 ### 📝 License
 
