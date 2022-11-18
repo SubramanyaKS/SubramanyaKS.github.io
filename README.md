@@ -7,9 +7,9 @@
 
 <img src ="https://github.com/SubramanyaKS/SubramanyaKS.github.io/blob/main/images/image-readme.png" alt = "website-preview"/>
 
-👋 Hi, Amigo <br>
+👋 Hi, Folks <br>
 I am Subramanya K S.This is my personal website hosted on Github.
-You can check my latest work and about my details in this website.
+You can check my latest work and my details in this website.
 
 ---
 
