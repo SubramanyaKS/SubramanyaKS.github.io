@@ -7,7 +7,8 @@
 
 .body {
   padding: 0%;
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +28,8 @@
   overflow-x: hidden;
   margin-bottom: 0;
   margin-right: 0rem;
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -44,7 +46,8 @@
   padding-right: 0;
 }
 #main {
-  background: url(./images/bg3.jpg) no-repeat;
+  /* background: url(./images/bg3.jpg) no-repeat; */
+  background-color:#aa0000;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -193,7 +196,8 @@ i {
   }
 }
 .about {
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -219,7 +223,8 @@ i {
 }
 
 .experience {
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -330,7 +335,8 @@ a:active {
   transition: 0.5s;
 }
 .education {
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
@@ -363,7 +369,8 @@ a:active {
   font-size: 1.5rem;
 }
 .skill {
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -371,7 +378,8 @@ a:active {
   text-align: center;
 }
 .project {
-  background-image: url("../images/bg3.jpg");
+  /*background-image: url("../images/bg3.jpg");*/
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
@@ -436,7 +444,8 @@ a:active {
   color: blue;
 }
 .contact {
-  background-image: url("../images/bg3.jpg");
+  /* background-image: url("../images/bg3.jpg"); */
+  background-color:#aa0000;
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
