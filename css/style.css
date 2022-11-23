@@ -38,10 +38,7 @@
   animation-name: moveInleft;
     animation-duration: 13s;
 }
-.scroll {
-  max-height: 100px;
-  overflow-y: auto;
-}
+
 @keyframes moveInleft {
   0% {
       opacity: 0;
@@ -447,7 +444,7 @@ a:active {
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
-  width: 30rem;
+  width: 25rem;
 }
 .card h5 {
   color: #f5eeee;
@@ -455,6 +452,17 @@ a:active {
 .card p {
   color: #fffbfb;
 }
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+/* .carousel-control.left {
+  margin-left: -25px;
+}
+
+.carousel-control.right {
+  margin-right: -25px;
+} */
 .card:hover {
   background-color: #800000 !important;
   transition: 0.5s;
