@@ -456,13 +456,13 @@ a:active {
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
-/* .carousel-control.left {
-  margin-left: -25px;
+ .carousel-control.left {
+  margin-left: -45px;
 }
 
 .carousel-control.right {
-  margin-right: -25px;
-} */
+  margin-right: -45px;
+} 
 .card:hover {
   background-color: #800000 !important;
   transition: 0.5s;
@@ -632,6 +632,9 @@ a:active {
   background: #ff2205;
   color: rgb(100, 128, 248);
 }
+/* .fa-angle-double-right{
+  color: #ffffff;
+} */
 .fa-angle-up {
   color: rgb(245, 240, 240);
   font-size: 20px;
