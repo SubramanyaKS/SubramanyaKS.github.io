@@ -38,6 +38,10 @@
   animation-name: moveInleft;
     animation-duration: 13s;
 }
+.scroll {
+  max-height: 100px;
+  overflow-y: auto;
+}
 @keyframes moveInleft {
   0% {
       opacity: 0;
