@@ -402,6 +402,7 @@ a:active {
   text-align: center;
 }
 .project {
+
   /*background-image: url("../images/bg3.jpg");*/
   background-color:#aa0000;
   background-repeat: no-repeat;
@@ -443,7 +444,9 @@ a:active {
   margin-bottom: 10px;
   margin-left: 10px;
   border-radius: 0;
-  box-shadow: 5px 5px 15px #e74c;
+  -webkit-box-shadow: 0 0 5px 6px #800000;
+    -moz-box-shadow: 0 0 5px 6px #800000;
+    box-shadow: 0 0 5px 6px #800000;
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -478,8 +481,10 @@ a:active {
   transform: scale(1.1);
 
   border-radius: 5px;
-  border: none;
-  box-shadow: 5px, 5px, 10px, #f3b0b0;
+  
+  -webkit-box-shadow: 0 0 5px 6px #fa0808;
+  -moz-box-shadow: 0 0 5px 6px #fa0808;
+  box-shadow: 0 0 5px 6px #fa0808;
 }
 .card:hover h5 {
   color: blue;
