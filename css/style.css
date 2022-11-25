@@ -532,6 +532,12 @@ a:active {
 .card-subtitle{
   color:black;
 }
+.box{
+  -webkit-box-shadow: 0 0 5px 6px #800000;
+  -moz-box-shadow: 0 0 5px 6px #800000;
+  box-shadow: 0 0 5px 6px #800000 !important;
+  
+}
 .bounce {
   display: inline-block;
   position: relative;
