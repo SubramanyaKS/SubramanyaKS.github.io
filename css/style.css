@@ -455,6 +455,7 @@ a:active {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   width: 25rem;
+  
 }
 .card h5 {
   color: #f5eeee;
