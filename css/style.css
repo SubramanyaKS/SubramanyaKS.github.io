@@ -327,16 +327,20 @@ i {
   text-decoration: none;
   margin: 5px 3px;
   border-radius: 50%;
+  
 }
 
 .resume-details a:link,
 a:visited {
-  background-color: #f44336;
+  background-color: ##ff2205;
   color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 
 .resume-details a:hover,
@@ -639,6 +643,9 @@ a:active {
 .fa-twitter {
   background: #800000;
   color: rgb(100, 128, 248);
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 .fa-twitter:hover {
   background: #ff2205;
@@ -647,6 +654,9 @@ a:active {
 .fa-facebook-f {
   background: #800000;
   color: rgb(23, 23, 243);
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 .fa-facebook-f:hover {
   background: #ff2205;
@@ -669,25 +679,35 @@ a:active {
 .fa-youtube {
   background: #800000;
   color: rgb(245, 240, 240);
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 .fa-youtube:hover {
   background: #ff2205;
   color: rgb(100, 128, 248);
 }
 .fa-google {
-  background: #be0404;
+  background: #800000 ;
   color: rgb(245, 240, 240);
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 .fa-google:hover {
   background: #ff2205;
   color: rgb(100, 128, 248);
 }
 .fa-linkedin {
-  background: #800000;
+  background: #800000 !important;
   color: rgb(10, 26, 247);
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
+  
 }
 .fa-linkedin:hover {
-  background: #ff2205;
+  background: #ff2205 !important;
   color: rgb(100, 128, 248);
 }
 .fa-github {
@@ -697,14 +717,21 @@ a:active {
 .contact .fa-github {
   background-color: #800000;
   color: rgb(126, 122, 122);
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 .contact .fa-github:hover {
   background: #ff2205;
   color: rgb(100, 128, 248);
+
 }
 .fa-hackerrank {
   background: #800000;
   color: white;
+  -webkit-box-shadow: 0 0 5px 6px #ff2205;
+    -moz-box-shadow: 0 0 5px 6px #ff2205;
+    box-shadow: 0 0 5px 6px #ff2205;
 }
 .fa-hackerrank:hover {
   background: #ff2205;
@@ -741,9 +768,15 @@ a:active {
   margin: 4px 2px;
   cursor: pointer;
   width: auto;
+  -webkit-box-shadow: 0 0 5px 6px #800000;
+  -moz-box-shadow: 0 0 5px 6px #800000;
+  box-shadow: 0 0 5px 6px #800000;
 }
 .button:hover {
   background-color: #800000;
+  -webkit-box-shadow: 0 0 5px 6px #f70808;
+  -moz-box-shadow: 0 0 5px 6px #f70808;
+  box-shadow: 0 0 5px 6px #f70808;
 }
 @media only screen and (max-width: 768px) {
   .button {
