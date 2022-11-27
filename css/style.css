@@ -457,6 +457,12 @@ a:active {
   width: 25rem;
   
 }
+.btn-sm{
+  background:linear-gradient(150deg, #f32f2f, #be0404);
+}
+.btn .fa-star{
+  color:yellow;
+}
 .card h5 {
   color: #f5eeee;
 }
@@ -642,6 +648,7 @@ a:active {
   border-radius: 50%;
 }
 .fork-button .fa {
+  margin:0;
   font-size: 15px;
   text-align: center;
 }
