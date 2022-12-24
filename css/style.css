@@ -454,7 +454,7 @@ a:active {
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
-  width: 25rem;
+  width: 20rem;
   
 }
 .btn-sm{
@@ -467,6 +467,12 @@ a:active {
   
 }
 .btn .fa-star{
+  color:white;
+}
+.card:hover .fa-star{
+  color:yellow;
+}
+.card:hover .fa-code-fork{
   color:yellow;
 }
 .card h5 {
@@ -485,8 +491,8 @@ a:active {
 
 .card:hover {
   background-color: #800000 !important;
-  transition: 0.5s;
-  transform: scale(1.1);
+  /* transition: 0.5s;
+  transform: scale(1.1); */
 
   border-radius: 5px;
   
@@ -495,7 +501,7 @@ a:active {
   box-shadow: 0 0 5px 6px #fa0808;
 }
 .card:hover h5 {
-  color: blue;
+  color: #f5eeee;
 }
 .contact {
   /* background-image: url("../images/bg3.jpg"); */
@@ -537,8 +543,12 @@ a:active {
 .card-title{
   font-family: cursive;
 }
+.card-text{
+  font-family: cursive;
+
+}
 .card-subtitle{
-  color:black;
+  color:#00ff00;
 }
 .box{
   -webkit-box-shadow: 0 0 5px 6px #800000;
