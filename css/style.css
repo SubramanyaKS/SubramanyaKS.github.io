@@ -547,6 +547,12 @@ a:active {
   font-family: cursive;
 
 }
+.edit .card-body{
+  background-color:black;
+}
+.card-header-tabs .active{
+  background-color:black !important;
+} 
 .card-subtitle{
   color:#00ff00 !important;
 }
