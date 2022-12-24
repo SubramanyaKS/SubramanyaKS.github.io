@@ -139,7 +139,7 @@
 	<section class="main py-5" id="main" style="background-color:#aa0000;">
 		<div class="container-fluid  py-5">
 			<div class="row py-5">
-				<div class="col-lg-12 col-mg-12 py-5 mr-auto ">
+				<div class="col-lg-6 col-mg-6 py-5 mr-auto ">
 					<h4 class="main-primary"><small>Hi <span class="wave">👋</span>, I am </small><br><span
 							class="typed1"></span></h4>
 					<h5 class="pt-3">&lt;<span class="typed"></span>&gt; </h5><br>
@@ -161,6 +161,72 @@
 
 						});
 					</script>
+				</div>
+				<div class="col-lg-6 col-mg-6 py-5 mx-auto ">
+					<div class="card edit">
+						<div class="card-header">
+						  <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
+							<li class="nav-item">
+							  <a class="nav-link active" href="#description" role="tab" aria-controls="description" aria-selected="true"><b>Java</b></a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link"  href="#history" role="tab" aria-controls="history" aria-selected="false"><b>python</b></a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#deals" role="tab" aria-controls="deals" aria-selected="false"><b>Javascript</b></a>
+							</li>
+						  </ul>
+						</div>
+						<div class="card-body">
+						  <!-- <h4 class="card-title">Bologna</h4>
+						  <h6 class="card-subtitle mb-2">Emilia-Romagna Region, Italy</h6>
+						   -->
+						   <div class="tab-content mt-3">
+							<div class="tab-pane active" id="description" role="tabpanel">
+							  <p style="text-align: left;" class="card-text"><span style="color: rgb(33, 18, 240);">class</span>&nbsp;<span style="color: rgb(104, 206, 236);">Me</span><br>
+								{<br>
+									&nbsp;&nbsp;<span style="color: rgb(248, 128, 15);">string</span> name;<br>
+									&nbsp;&nbsp;<span style="color: rgb(248, 128, 15);">int</span> age;<br>
+									&nbsp;&nbsp;<span style="color: rgb(248, 128, 15);">string</span> nationality;<br>
+									&nbsp;&nbsp;<span style="color: rgb(104, 206, 236);">Me</span>()<br>
+									&nbsp;&nbsp;{<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.name=<span style="color: rgba(248, 124, 7, 0.692);">"Subramanya"</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.age=<span style="color: rgba(248, 124, 7, 0.692);">22</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.nationality=<span style="color: rgba(248, 124, 7, 0.692);">"India"</span>;<br>
+										&nbsp;&nbsp;
+									}<br>
+								} </p>
+							  <!-- <a href="#" class="card-link text-danger">Read more</a> -->
+							</div>
+							 
+							<div class="tab-pane" id="history" role="tabpanel" aria-labelledby="history-tab">  
+							  <p style="text-align: left;" class="card-text"><span style="color: rgb(33, 18, 240);">class</span> &nbsp;<span style="color: rgb(104, 206, 236);">Me</span>:<br>
+
+								<br>&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">def</span> <span style="color: rgb(104, 206, 236);"> __init__</span>(self):<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span style="color: rgba(248, 124, 7, 0.692);"> "Subramanya"</span> <br>
+								&nbsp;&nbsp;&nbsp;&nbsp;self.age =  <span style="color: rgba(248, 124, 7, 0.692);"> 22</span><br>
+								&nbsp;&nbsp;&nbsp;&nbsp;self.nationality =<span style="color: rgba(248, 124, 7, 0.692);">  "Indian"</span><br></p>
+							  <!-- <a href="#" class="card-link text-danger">Read more</a> -->
+							</div>
+							 
+							<div class="tab-pane" id="deals" role="tabpanel" aria-labelledby="deals-tab">
+							  <p style="text-align: left;" class="card-text">
+								<span style="color: rgb(33, 18, 240);">class</span>&nbsp;<span style="color: rgb(104, 206, 236);">Me</span><br>
+								{<br>
+									
+									&nbsp;&nbsp;<span style="color: rgb(104, 206, 236);">constructor</span>()<br>
+									&nbsp;&nbsp;{<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgba(33, 18, 240, 0.972);">this</span>.name=<span style="color: rgba(248, 124, 7, 0.692);">"Subramanya"</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.age=<span style="color: rgba(248, 124, 7, 0.692);">22</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.nationality=<span style="color: rgba(248, 124, 7, 0.692);">"India"</span>;<br>
+										&nbsp;&nbsp;
+									}<br>
+								} </p>
+							  <!-- <a href="#" class="btn btn-danger btn-sm">Get Deals</a> -->
+							</div>
+						  </div>
+						</div>
+					  </div>
 				</div>
 			</div>
 		</div>
@@ -773,6 +839,10 @@
 				}
 			}
 		}
+		$('#bologna-list a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 	</script>
 </body>
 </html>
