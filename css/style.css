@@ -454,7 +454,7 @@ a:active {
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
-  width: 20rem;
+  width: 22rem;
   
 }
 .btn-sm{
@@ -548,7 +548,10 @@ a:active {
 
 }
 .card-subtitle{
-  color:#00ff00;
+  color:#00ff00 !important;
+}
+.card-subtitle a{
+  color:#00ff00 !important;
 }
 .box{
   -webkit-box-shadow: 0 0 5px 6px #800000;
