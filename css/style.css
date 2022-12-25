@@ -547,6 +547,21 @@ a:active {
   font-family: cursive;
 
 }
+.cn{
+  color:rgb(33, 18, 240);;
+}
+.fn{
+  color:rgb(104, 206, 236);
+}
+.vn{
+  color:rgb(248, 128, 15);
+}
+.val{
+  color:rgba(248, 124, 7, 0.692);
+}
+.main .card {
+  width:80%;
+}
 .edit .card-body{
   background-color:black;
 }
