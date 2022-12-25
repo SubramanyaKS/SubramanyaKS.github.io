@@ -183,18 +183,27 @@
 						   -->
 						   <div class="tab-content mt-3">
 							<div class="tab-pane active" id="description" role="tabpanel">
-							  <p style="text-align: left;" class="card-text"><code><span style="color: rgb(33, 18, 240);">class</span>&nbsp;<span style="color: rgb(104, 206, 236);">Me</span><br>
+							  <p style="text-align: left;" class="card-text"><code><span class="cn">class</span>&nbsp;<span style="color: rgb(104, 206, 236);">Me</span><br>
 								{<br>
-									&nbsp;&nbsp;<span style="color: rgb(248, 128, 15);">String</span> name;<br>
-									&nbsp;&nbsp;<span style="color: rgb(248, 128, 15);">int</span> age;<br>
-									&nbsp;&nbsp;<span style="color: rgb(248, 128, 15);">String</span> nationality;<br>
-									&nbsp;&nbsp;<span style="color: rgb(104, 206, 236);">Me</span>()<br>
+									&nbsp;&nbsp;<span class="vn">String</span> name;<br>
+									&nbsp;&nbsp;<span class="vn">int</span> age;<br>
+									&nbsp;&nbsp;<span class="vn">String</span> nationality;<br>
+									&nbsp;&nbsp;<span class="fn">Me</span>()<br>
 									&nbsp;&nbsp;{<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.name=<span style="color: rgba(248, 124, 7, 0.692);">"Subramanya"</span>;<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.age=<span style="color: rgba(248, 124, 7, 0.692);">22</span>;<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.nationality=<span style="color: rgba(248, 124, 7, 0.692);">"Indian"</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span class="cn">this</span>.name=<span class="val">"Subramanya"</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span class="cn">this</span>.age=<span class="val">22</span>;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span class="cn">this</span>.nationality=<span class="val">"Indian"</span>;<br>
 										&nbsp;&nbsp;
 									}<br>
+									&nbsp;&nbsp;void <span class="fn">Hi</span> ()<br>
+									&nbsp;&nbsp;{<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(<span class="val"> "Welcome to my website"</span>);
+									<br>&nbsp;&nbsp;}<br>
+									&nbsp;&nbsp;<span class="cn">public static void</span> <span class="fn"> main</span> (<span class="vn"> String[]</span> args) <br>
+									&nbsp;&nbsp; { <br>
+										&nbsp;&nbsp;&nbsp;&nbsp;<span class="fn">Me </span> me= <span class="cn"> new </span><span style="color: rgb(104, 206, 236);">Me </span>();<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;me.Hi();<br>
+										&nbsp;&nbsp;}<br>
 								} </code></p>
 							  <!-- <a href="#" class="card-link text-danger">Read more</a> -->
 							</div>
@@ -205,8 +214,15 @@
 								<br>&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">def</span> <span style="color: rgb(104, 206, 236);"> __init__</span>(self):<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span style="color: rgba(248, 124, 7, 0.692);"> "Subramanya"</span> <br>
 								&nbsp;&nbsp;&nbsp;&nbsp;self.age =  <span style="color: rgba(248, 124, 7, 0.692);"> 22</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;self.nationality =<span style="color: rgba(248, 124, 7, 0.692);">  "Indian"</span><br></code></p>
-							  <!-- <a href="#" class="card-link text-danger">Read more</a> -->
+								&nbsp;&nbsp;&nbsp;&nbsp;self.nationality =<span style="color: rgba(248, 124, 7, 0.692);">  "Indian"</span><br>
+								&nbsp;&nbsp;<span class="cn">def</span> <span class="fn"> say_hi</span>(self):<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;print(<span class="val"> "Welcome to my website"</span>)<br><br>
+								me = <span class="fn"> Me</span>()<br>
+								me.<span class="fn">say_hi</span>()<br>
+							</code></p>
+								
+								
+								<!-- <a href="#" class="card-link text-danger">Read more</a> -->
 							</div>
 							 
 							<div class="tab-pane" id="deals" role="tabpanel" aria-labelledby="deals-tab">
