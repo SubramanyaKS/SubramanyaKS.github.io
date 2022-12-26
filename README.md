@@ -100,7 +100,7 @@ This project is under the [MIT](https://choosealicense.com/licenses/mit/) licens
 
 ## Feedback
 
-If you have any feedback, please reach out to us at [email](connectwithsubbu@gmail.com)
+If you have any feedback, please reach out to me at [email](connectwithsubbu@gmail.com)
 
 If you like this don't forget to ⭐ the repository.
 
