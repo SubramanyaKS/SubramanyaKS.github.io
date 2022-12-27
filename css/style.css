@@ -253,6 +253,9 @@ i {
   width: 100%;
   height: 100%;
 }
+.edu-logo{
+  border-radius:50%;
+}
 .skills {
   background-color: #4169e1;
   margin-bottom: 10px;
@@ -371,16 +374,17 @@ a:active {
   text-align: center;
   height: 100%;
 }
-.education img {
-  width: 200px;
-  height: 200px;
+ .education img {
+  width: 100%;
+  height: 100%;
+}/*
   background-color: #f80808;
-  align-items: center;
+  /* align-items: center;
   -webkit-box-shadow: 6px 4px 29px -14px rgba(252, 249, 249, 0.75);
   -moz-box-shadow: 6px 4px 29px -14px rgba(245, 243, 243, 0.75);
-  box-shadow: 6px 4px 29px -14px rgba(253, 4, 4, 0.75);
-  border-radius: 50%;
-}
+  box-shadow: 6px 4px 29px -14px rgba(253, 4, 4, 0.75); */
+  /* border-radius: 50%;
+} */ 
 .right {
   position: absolute;
   right: 0px;
@@ -441,7 +445,7 @@ a:active {
   margin: 0;
   padding: 0;
 }
-.card {
+.project .card, .experience .card, .skill .card, .main .card {
   /*background: linear-gradient(120deg, #ff0606, #990202) !important;*/
   background-color: #fa0808 !important;
   opacity: 100%;
@@ -457,6 +461,7 @@ a:active {
   width: 22rem;
   
 }
+
 .btn-sm{
   background:linear-gradient(150deg, #f32f2f, #be0404);
   width:15%;
@@ -481,15 +486,21 @@ a:active {
 .card p {
   color: #fffbfb;
 }
+.education .card-img{
+   height:75%; 
+  width:90%;
+}
+.education .card{
+  background-color:#fa0808;
+}
 
-
-.card-img-top {
+.project .card-img-top, .skill .card-img-top,.experience .card-img-top {
   width: 100%;
   height: 20%;
   object-fit: cover;
 }
 
-.card:hover {
+.project .card:hover,.skill .card:hover,.experience .card:hover, .main .card:hover {
   background-color: #800000 !important;
   /* transition: 0.5s;
   transform: scale(1.1); */
