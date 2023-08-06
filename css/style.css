@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+:root{
+  --dark-red: #aa0000;
+  --light-red:#fa0808;
+  --lighter-red:#ee0001;
+  --black:#000;
+  --white:#fff;
+  --brown:#be0404;
+  --skin:#ffdead;
+  --blue:#0000ff;
+  --grey:#a8bac0;
+  --skyblue:#0ac2fa;
+  --lightwhite:#f8f8f8;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +22,7 @@
 .body {
   padding: 0%;
   /* background-image: url("../images/bg3.jpg"); */
-  background-color:#aa0000;
+  background-color:var(--dark-red);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,7 +30,7 @@
 #loader {
   width: 100%;
   height: 100%;
-  background: #ee0001 url(../images/Eclipse1.gif) no-repeat center;
+  background: var(--light-red) url(../images/Eclipse1.gif) no-repeat center;
   position: fixed;
   z-index: 100;
 }
@@ -30,7 +44,7 @@
   margin-bottom: 0;
   margin-right: 0rem;
   /* background-image: url("../images/bg3.jpg"); */
-  background-color:#aa0000;
+  background-color:var(--dark-red);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -68,13 +82,13 @@
 }
 #main {
   /* background: url(./images/bg3.jpg) no-repeat; */
-  background-color:#aa0000;
+  background-color:var(--dark-red);
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 .nav-link b {
-  color: #fff;
+  color: var(--white);
 }
 /*#preloader{
 	background:#0f0f0f url(../images/preloader.gif) no-repeat center;
@@ -101,22 +115,22 @@ header{
 .fa-bars {
   height: 50px;
   font-size: 2.5em;
-  color: rgb(248, 246, 246);
+  color: var(--white);
 }
 .fa-laptop-code {
   height: 20px;
   font-size: 2em;
-  color: rgb(253, 44, 44);
+  color: var(--light-red);
 }
 
 .menu-icon {
   font-size: 2.4em;
-  color: white;
+  color: var(--white);
   line-height: 40px;
 }
 
 ul.navbar-nav a:hover {
-  background-color: #be0404 !important;
+  background-color: var(--brown) !important;
 }
 
 #checkbox {
@@ -130,7 +144,7 @@ ul.navbar-nav a:hover {
 .main h4 {
   text-align: center;
   font-size: 4rem;
-  color: #ffdead;
+  color: var(--skin);
   font-family: cursive;
 }
 
@@ -141,7 +155,7 @@ ul.navbar-nav a:hover {
   /*line-height:1;
 	border-bottom:2px solid rgb(233,10,109);*/
   width: auto;
-  color: #fff;
+  color: var(--white);
 }
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
@@ -183,11 +197,11 @@ ul.navbar-nav a:hover {
   text-align: center;
   text-transform: uppercase;
   width: auto;
-  color: blue;
+  color: var(--blue);
 }
 
 .name {
-  color: rgb(10, 194, 250);
+  color: var(--skyblue);
 }
 
 p,
@@ -197,7 +211,7 @@ h3,
 h5,
 h6,
 i {
-  color: rgb(248, 248, 248);
+  color: var(--lightwhite);
 }
 .reveal {
   position: relative;
@@ -213,12 +227,12 @@ i {
 
 @media only screen and (max-width: 768px) {
   .body {
-    background-color: rgb(168, 186, 192);
+    background-color: var(--grey);
   }
 }
 .about {
   /* background-image: url("../images/bg3.jpg"); */
-  background-color:#aa0000;
+  background-color:var(--dark-red);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -227,14 +241,14 @@ i {
 }
 .about h1 {
   font-size: 4.4rem;
-  color: black;
+  color: var(--black);
 }
 .about img {
   width: auto;
   height: auto;
   border-radius: 50%;
   background-color: #f80808;
-  -webkit-box-shadow: 6px 4px 29px -14px rgba(248, 9, 9, 0.75);
+  -webkit-box-shadow: 6px 4px 29px -14px #f80909bf;
   -moz-box-shadow: 6px 4px 29px -14px rgba(245, 7, 7, 0.75);
   box-shadow: 6px 4px 29px -14px rgba(245, 5, 5, 0.75);
 }
@@ -335,7 +349,7 @@ i {
 
 .resume-details a:link,
 a:visited {
-  background-color: ##ff2205;
+  background-color: #ff2205;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -489,6 +503,10 @@ a:active {
 .education .card-img{
    height:75%; 
   width:90%;
+  background-color: #fa0808;
+  align-items: center;
+  border-radius: 10%;
+
 }
 .education .card{
   background-color:#fa0808;
