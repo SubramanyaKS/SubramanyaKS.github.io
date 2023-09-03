@@ -1,0 +1,121 @@
+.project-card .card-icons {
+    display: none;
+}
+.medium-icon {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.project-card:hover .card-icons{
+    display: block;
+}
+.project-card {
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    position: relative;
+    /* width: 300px; */
+    transition: transform 0.3s;
+    /* box-shadow: 0 5px 8px rgba(36, 248, 248, 0.5); */
+     /* background-color: #7F00FF;
+    color: #01FF70; */
+    background-color: #001f3f !important;
+    color: #FFD700 !important;
+    box-shadow: 0 4px 6px #FFD700 !important;
+    border: 2px solid #FFD700;
+    /* background-color:  #B10DC9;
+    color: #FFDC00 ; */
+}
+.project-card .card-text{
+    color: var(--gold) !important;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card .card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.project-card .card-body {
+    padding: 1.25rem;
+    position: relative;
+}
+
+.project-card .card-description {
+    display: none;
+}
+
+.project-card:hover .card-description {
+    display: block;
+}
+
+.project-card .btn {
+    margin-right: 10px;
+}
+
+/* Move carousel controls outside the carousel */
+.carousel-controls {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-bottom: 10px !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px !important; /* Adjust the width as needed */
+}
+/* Define styles for the button */
+.rounded-icon-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    color:#000 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+.fa-github{
+    color: #001f3f !important;
+}
+.fa-download{
+    color: #001f3f !important;
+}
+.fa-external-link-alt{
+    color: #001f3f !important;
+}
+
+/* Define styles for the button on hover */
+.rounded-icon-button:hover {
+    transform: scale(1.1);
+}
+.github-icons {
+    position: absolute;
+    top: 10px; /* Adjust the top distance as needed */
+    right: 10px; /* Adjust the right distance as needed */
+}
+
+/*  */
+.icon {
+    font-size: 24px;
+    margin-right: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    color:#2e364a;
+}
+
+body{
+    background-color: #2e364a;
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+}
