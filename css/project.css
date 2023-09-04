@@ -74,7 +74,7 @@
     border-radius: 50%;
     color:#000 !important;
     background-color: #ffffff !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(250, 248, 248, 0.963);
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -102,13 +102,14 @@
 .icon {
     font-size: 24px;
     margin-right: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(251, 250, 250, 0.96) !important;
     background-color: #ffffff;
     border-radius: 50%;
     padding: 5px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
     color:#2e364a;
+    border: 1px solid var(--gold);
 }
 
 body{
@@ -118,4 +119,14 @@ body{
 
 .icon:hover {
     transform: scale(1.1);
+}
+
+.fa-star:hover{
+    color: var(--gold);
+}
+.fa-code-branch{
+    color: var(--black);
+}
+.card-subtitle{
+    color: var(--white) !important;
 }
