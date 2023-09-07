@@ -130,3 +130,21 @@ body{
 .card-subtitle{
     color: var(--white) !important;
 }
+.fa-react{
+    color:var(--skyblue);
+}
+.fa-html5{
+    color:rgb(255, 102, 0);
+}
+.fa-css3-alt{
+    color:blue;
+}
+.bxl-android{
+    color:#00ff00;
+}
+.fa-java{
+    color:red;
+}
+.fa-python{
+    color:#999966;
+}
