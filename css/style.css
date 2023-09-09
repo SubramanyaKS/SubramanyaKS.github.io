@@ -410,6 +410,31 @@ a:visited {
   -moz-box-shadow: 0 0 5px 6px var(--gold);
   box-shadow: 0 0 5px 6px var(--gold);
 }
+.external-link-button i{
+  color: var(--gold) !important;
+}
+.external-link-button {
+  background: linear-gradient(to right, var(--navy) 50%, var(--skyblue) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  border:none;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 6px var(--gold);
+  -moz-box-shadow: 0 0 5px 6px var(--gold);
+  box-shadow: 0 0 5px 6px var(--gold);
+}
+.external-link-button:hover{
+  background-position: left bottom;
+  color: var(--gold) !important;
+  -webkit-box-shadow: 0 0 5px 6px var(--skyblue);
+  -moz-box-shadow: 0 0 5px 6px var(--skyblue);
+  box-shadow: 0 0 5px 6px var(--skyblue);
+}
 
 .resume-details a:hover,
 a:active {
