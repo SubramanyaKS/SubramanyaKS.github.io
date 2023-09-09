@@ -282,9 +282,13 @@
 						I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas
 						with them, thereby learn and also help others grow too.</p>
 
-					<div class="resume-details">
+					<!-- <div class="resume-details">
 						<a data-toggle="tooltip" title="Download resume" href="https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view?usp=sharin"
 							target="_blank"><i class="fa fa-download"></i>Download</a>
+					</div> -->
+					<div class="resume-button ">
+						<button id="openLinkButton" class="external-link-button"> <span class="buttonText">Download</span>
+							<i class="fa fa-download"></i></button>
 					</div>
 				</div>
 			</div>
@@ -807,6 +811,11 @@
 				loader.style.display = "none";
 			}, 3000);
 		})
+	</script>
+	<script>
+		document.getElementById("openLinkButton").addEventListener("click", function() {
+	window.open("https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view?usp=sharing", "_blank"); // Opens the link in a new tab
+});
 	</script>
 	<script type="text/javascript">
 		window.addEventListener('scroll', reveal);
