@@ -2,8 +2,9 @@
 # Personal Website
 
 ![Repository Size](https://img.shields.io/github/repo-size/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
-![Lines of Codes](https://img.shields.io/tokei/lines/github.com/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SubramanyaKS/Subramanyaks.github.io?style=for-the-badge)
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg?style=for-the-badge)](https://github.com/SubramanyaKS/SubramanyaKS.github.io/)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green?style=for-the-badge)](https://subramanyaks.github.io)
 
 It is my personal website or portfolio hosted with GitHub Pages,built to showcase my latest work and my details in this website.
 
