@@ -987,9 +987,9 @@ textarea::placeholder {
 }
 .inside-box {
   /* flex: 1; Each box takes an equal amount of space */
-            padding: 2px;
-            /* border: 1px solid #ccc; */
-            box-sizing: border-box;
+  padding: 2px;
+  /* border: 1px solid #ccc; */
+  box-sizing: border-box;
 }
 .inside-box:first-child{
   justify-content: flex-start;
