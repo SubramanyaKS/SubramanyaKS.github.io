@@ -42,8 +42,6 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* align-items: center;
-  justify-items: center; */
   text-align: center;
   padding: 25%;
   transform: translate(-50%, -50%);
@@ -72,13 +70,7 @@ body {
   animation-delay: 0.5s;
 }
 
-/* #loader {
-  width: 100%;
-  height: 100%;
-  background: var(--light-red) url(../images/Eclipse1.gif) no-repeat center;
-  position: fixed;
-  z-index: 100;
-} */
+
 .html,
 .body {
   width: 100%;
@@ -96,6 +88,10 @@ body {
 .main-primary {
   animation-name: moveInleft;
   animation-duration: 13s;
+  
+}
+.name{
+  color:var(--gold) !important;
 }
 
 @keyframes moveInleft {
@@ -131,28 +127,36 @@ body {
   background-position: center;
   text-align: center;
 }
-.nav-link b {
-  color: var(--white);
+/*Navigation */
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
 }
-/*#preloader{
-	background:#0f0f0f url(../images/preloader.gif) no-repeat center;
-	background-size: 25%;
-	height: 100%;
-	width:100%;
-	position: fixed;
-	z-index: 100;
 
+.nav-link {
+  font-family: cursive;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: medium;
+  position: relative;
+  color: var(--lightwhite) !important;
 }
-header{
-	height: auto;
-	background-color: black;
-	padding: 10px 5px;
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--gold);
+  transition: width 0.3s ease;
 }
-.menu-wrap{
-	display: flex;
-	justify-content: space-between;
-	padding: 0 10px;
-}*/
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
 #fal.fal {
   font-size: 200%;
 }
@@ -171,10 +175,6 @@ header{
   font-size: 2.4em;
   color: var(--white);
   line-height: 40px;
-}
-
-ul.navbar-nav a:hover {
-  background-color: var(--gold) !important;
 }
 
 #checkbox {
@@ -196,10 +196,8 @@ ul.navbar-nav a:hover {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
-  /*line-height:1;
-	border-bottom:2px solid rgb(233,10,109);*/
   width: auto;
-  color: var(--white);
+  color: var(--white) !important;
 }
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
@@ -298,9 +296,6 @@ i {
   -webkit-box-shadow: 0 0 5px 6px var(--gold);
   -moz-box-shadow: 0 0 5px 6px var(--gold);
   box-shadow: 0 0 5px 6px var(--gold);
-  /* -webkit-box-shadow: 6px 4px 29px -14px #f80909bf;
-  -moz-box-shadow: 6px 4px 29px -14px rgba(245, 7, 7, 0.75);
-  box-shadow: 6px 4px 29px -14px rgba(245, 5, 5, 0.75);*/
 }
 .about p {
   font-size: 1.25rem;
@@ -357,9 +352,6 @@ i {
   text-decoration: none;
   margin: 5px 3px;
 }
-/* .carousel{
-  padding:75px;
-} */
 .btn {
   background-color: DodgerBlue;
   border: none;
@@ -373,19 +365,6 @@ i {
 .btn:hover {
   background-color: RoyalBlue;
 }
-/*.btn{
-	background-color: #4169E1;
-	
-	height:60px;
-	width:140px;
-
-}
-.btn:hover{
-	background-color:transparent;
-	color:black;
-	border:1px solid black;
-	transition:0.5s;
-}*/
 .resume-details .fa {
   padding: 0px;
   font-size: 20px;
@@ -406,15 +385,15 @@ a:visited {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  -webkit-box-shadow: 0 0 5px 6px var(--gold);
-  -moz-box-shadow: 0 0 5px 6px var(--gold);
-  box-shadow: 0 0 5px 6px var(--gold);
+  /* -webkit-box-shadow: 0 0 5px 6px var(--gold);
+  -moz-box-shadow: 0 0 5px 6px var(--gold); */
+  /* box-shadow: 0 0 5px 6px var(--gold); */
 }
 .external-link-button i{
   color: var(--gold) !important;
 }
 .external-link-button {
-  background: linear-gradient(to right, var(--navy) 50%, var(--skyblue) 50%);
+  background: linear-gradient(to right, var(--navy) 50%, var(--blue) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
@@ -423,10 +402,10 @@ a:visited {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 45px;
   -webkit-box-shadow: 0 0 5px 6px var(--gold);
   -moz-box-shadow: 0 0 5px 6px var(--gold);
-  box-shadow: 0 0 5px 6px var(--gold);
+  box-shadow: 3px 0 2px 2px var(--gold);
 }
 .external-link-button:hover{
   background-position: left bottom;
@@ -468,10 +447,6 @@ a:active {
   text-align: center;
   height: 100%;
 }
-/* .education img {
-  width: 100%;
-  height: 100%;
-}  */
 .right {
   position: absolute;
   right: 0px;
@@ -505,20 +480,6 @@ a:active {
   text-align: center;
   width: 100%;
 }
-/* .column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-.row {
-  margin: 0;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
 @media screen and (max-width: 738px) {
   .column {
     width: 100%;
@@ -531,9 +492,22 @@ a:active {
   margin: 0;
   padding: 0;
 }
+.main .card{
+  background-color: var(--navy) !important;
+  opacity: 100%;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 5px 5px var(--gold);
+  -moz-box-shadow:  0 0 5px 5px var(--gold);
+  box-shadow:  5px 2px 8px 2px var(--gold);
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+
+}
 .experience .card,
-.skill .card,
-.main .card {
+.skill .card {
   /*background: linear-gradient(120deg, #ff0606, #990202) !important;*/
   background-color: var(--navy) !important;
   opacity: 100%;
@@ -560,18 +534,6 @@ a:active {
 .btn .fa-star {
   color: var(--gold);
 }
-/* .card:hover .fa-star{
-  color:yellow;
-}
-.card:hover .fa-code-fork{
-  color:yellow;
-} */
-/* .card h5 {
-  color: #f5eeee;
-}
-.card p {
-  color: #fffbfb;
-} */
 .education .card-img {
   height: 75%;
   width: 90%;
@@ -957,13 +919,6 @@ textarea::placeholder {
 .navbar {
   max-width: 100%;
 }
-.nav-item {
-  max-width: 100%;
-  font-size: 1rem;
-  font-weight: 100;
-  padding-right: 0rem;
-  padding-left: 0rem;
-}
 @media only screen and (min-width: 200px) {
   .html .experience .education .project .contact {
     width: 100%;
@@ -972,13 +927,6 @@ textarea::placeholder {
     display: block;
   }
 }
-
-/* .carousel-indicators {
-  left:0;
-  top:auto;
-  bottom:-70px;
-
-} */
 .container-c {
   display: flex;
   height: 100%;
