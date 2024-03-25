@@ -946,3 +946,25 @@ textarea::placeholder {
   flex: 2;
   justify-content: space-between;
 }
+
+.button-container{
+  padding: 2%;
+  margin:2%;
+  
+}
+
+.project-button{
+  padding: 1%;
+  padding-top:1.5%;
+  height: 50px;
+  width: 50px;
+  border-radius: 45px;
+  border:1px solid #4481eb;
+  text-decoration: none;
+}
+.project-button:hover{
+  text-decoration: none;
+  color: var(--navy);
+  box-shadow:0 0 5px 5px var(--gold);
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
