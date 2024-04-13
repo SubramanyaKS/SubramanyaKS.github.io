@@ -607,6 +607,9 @@ a:active {
 .experience .card-body .fa-share-square {
   color: rgb(22, 21, 21);
 }
+.fa-npm {
+  color: rgb(22, 21, 21);
+}
 .experience .card-body .fa-download {
   color: rgb(22, 21, 21);
 }
@@ -764,8 +767,10 @@ a:active {
   box-shadow: 0 0 5px 6px var(--gold);
 }
 .icon-box:hover {
-  background-position: left bottom;
+  background-position: left top;
+  
 }
+
 .fa-x-twitter {
   color: rgb(243, 243, 245) !important;
 }
