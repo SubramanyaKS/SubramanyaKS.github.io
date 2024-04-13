@@ -148,3 +148,14 @@ body{
 .fa-python{
     color:#999966;
 }
+.package-card{
+    background: linear-gradient(to bottom right, var(--navy) 50%, var(--blue) 50%);
+    background-size: 200% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+    border: 1px solid gold;
+}
+.package-card:hover{
+    /* background: linear-gradient(to right, var(--blue) 50%, var(--navy) 50%);    */
+    background-position: bottom right;
+}
