@@ -1,4 +1,3 @@
-
 # Personal Website
 
 ![Repository Size](https://img.shields.io/github/repo-size/SubramanyaKS/SubramanyaKS.github.io?style=for-the-badge)
@@ -64,6 +63,27 @@ The website is deployed in Github Pages.
 
 you can refer [this page](https://pages.github.com/). for more details about deployment 
 
+
+## Contribution
+
+if you want to contribute to this project. 
+
+1. Fork the repository
+2. Create a new branch (any name except main and master)
+```
+git checkout -b xyz
+```
+3. Make changes and commit your changes.
+```
+git commit -m "Changes in xyz"
+```
+4. Push the changes to new branch.
+```
+git push origin xyz
+```
+5. Open a pull request
+
+---
 
 
 ## Demo
