@@ -88,7 +88,8 @@ git push origin xyz
 
 ## Demo
 
-You can see the demo of website by click on below link.
+
+The website is hosted on github pages.click on below link to view.
 
 [Website](https://subramanyaks.github.io/)
 
