@@ -30,7 +30,6 @@
 
 body {
   padding: 0%;
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--navy) !important;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +79,6 @@ body {
   overflow-x: hidden;
   margin-bottom: 0;
   margin-right: 0rem;
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--dark-red);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +119,6 @@ body {
   padding-right: 0;
 }
 #main {
-  /* background: url(./images/bg3.jpg) no-repeat; */
   background-color: var(--navy);
   background-size: cover;
   background-position: center;
@@ -242,10 +239,6 @@ body {
   color: var(--blue);
 }
 
-.name {
-  color: var(--skyblue);
-}
-
 p,
 h1,
 h2,
@@ -273,7 +266,6 @@ i {
   }
 }
 .about {
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--navy);
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,7 +295,6 @@ i {
 }
 
 .experience {
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--navy);
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,9 +376,6 @@ a:visited {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  /* -webkit-box-shadow: 0 0 5px 6px var(--gold);
-  -moz-box-shadow: 0 0 5px 6px var(--gold); */
-  /* box-shadow: 0 0 5px 6px var(--gold); */
 }
 .external-link-button i{
   color: var(--gold) !important;
@@ -438,7 +426,6 @@ a:active {
   transition: 0.5s;
 }
 .education {
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--navy);
   background-repeat: no-repeat;
   background-size: cover;
@@ -463,7 +450,6 @@ a:active {
   font-size: 1.5rem;
 }
 .skill {
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--navy);
   background-repeat: no-repeat;
   background-size: cover;
@@ -472,7 +458,6 @@ a:active {
   text-align: center;
 }
 .project {
-  /*background-image: url("../images/bg3.jpg");*/
   background-color: var(--navy);
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,6 +481,7 @@ a:active {
   background-color: var(--navy) !important;
   opacity: 100%;
   margin-bottom: 5px;
+  width: 80%;
   margin-right: 5px;
   border-radius: 0;
   -webkit-box-shadow: 0 0 5px 5px var(--gold);
@@ -508,7 +494,6 @@ a:active {
 }
 .experience .card,
 .skill .card {
-  /*background: linear-gradient(120deg, #ff0606, #990202) !important;*/
   background-color: var(--navy) !important;
   opacity: 100%;
   margin-bottom: 5px;
@@ -561,8 +546,6 @@ a:active {
 .experience .card:hover,
 .main .card:hover {
   background-color: var(--blueberry) !important;
-  /* transition: 0.5s;
-  transform: scale(1.1); */
   color: var(--black) !important;
   border-radius: 5px;
 
@@ -574,7 +557,6 @@ a:active {
   color: #f5eeee;
 }
 .contact {
-  /* background-image: url("../images/bg3.jpg"); */
   background-color: var(--navy);
   background-repeat: no-repeat;
   background-size: cover;
@@ -620,7 +602,7 @@ a:active {
   font-family: cursive;
 }
 .cn {
-  color: rgb(33, 18, 240);
+  color: rgb(2, 128, 254);
 }
 .fn {
   color: rgb(104, 206, 236);
@@ -629,10 +611,7 @@ a:active {
   color: rgb(248, 128, 15);
 }
 .val {
-  color: rgba(248, 124, 7, 0.692);
-}
-.main .card {
-  width: 80%;
+  color: rgba(209, 244, 13, 0.96);
 }
 .edit .card-body {
   background-color: black;
@@ -939,9 +918,7 @@ textarea::placeholder {
   align-items: center;
 }
 .inside-box {
-  /* flex: 1; Each box takes an equal amount of space */
   padding: 2px;
-  /* border: 1px solid #ccc; */
   box-sizing: border-box;
 }
 .inside-box:first-child{

@@ -11,20 +11,13 @@
 }
 .project-card {
     border-radius: 10px;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
     position: relative;
-    /* width: 300px; */
     transition: transform 0.3s;
-    /* box-shadow: 0 5px 8px rgba(36, 248, 248, 0.5); */
-     /* background-color: #7F00FF;
-    color: #01FF70; */
     background-color: #001f3f !important;
     color: #FFD700 !important;
     box-shadow: 0 4px 6px #FFD700 !important;
     border: 2px solid #FFD700;
-    /* background-color:  #B10DC9;
-    color: #FFDC00 ; */
 }
 .project-card .card-text{
     color: var(--gold) !important;
@@ -98,7 +91,6 @@
     right: 10px; /* Adjust the right distance as needed */
 }
 
-/*  */
 .icon {
     font-size: 24px;
     margin-right: 5px;
@@ -156,6 +148,5 @@ body{
     border: 1px solid gold;
 }
 .package-card:hover{
-    /* background: linear-gradient(to right, var(--blue) 50%, var(--navy) 50%);    */
     background-position: bottom right;
 }

@@ -9,7 +9,6 @@
     width: 50%;
     opacity: 0;
     animation:  movedown 1s linear forwards;
-    /* background-color: rgba(0,0,0,0.3); */
 }
 @keyframes movedown {
     0%{
@@ -53,7 +52,6 @@
 }
 .container-e .card{
     background-color: var(--navy) !important;
-    /* box-shadow: 0 0 5px 10px var(--dark-red) !important; */
     -webkit-box-shadow: 0 0 5px 10px var(--gold);
     -moz-box-shadow: 0 0 5px 10px var(--gold);
     box-shadow: 0 0 5px 10px var(--gold);
@@ -65,7 +63,7 @@
     width: 20px; /* Bullet width */
     /* height: 20px; /* Bullet height */
     /* background-color: #007bff; Bullet color */
-    /* border-radius: 50%; */
+    
     /* left: -10px; Adjust the distance from the timeline line */
 /* }  */
 .timeline-bullet{
@@ -80,13 +78,13 @@
 }
 .container-e img{
     position: absolute;
-    /* background-color: #007bff; */
     border-radius: 50%;
     right: -20px;
     z-index: 10;
     top:32px;
     height: 30px;
     width: 40px;
+    object-fit: cover;
 }
 .right-container .timeline-bullet{
     left:-10px;
