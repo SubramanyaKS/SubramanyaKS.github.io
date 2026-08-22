@@ -118,12 +118,12 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-#main {
+/* #main {
   background-color: var(--navy);
   background-size: cover;
   background-position: center;
   text-align: center;
-}
+} */
 /*Navigation */
 .navbar-nav {
   display: flex;
@@ -182,62 +182,6 @@ body {
   padding: 15px 0;
   transition: all 0.5s;
 }
-.main h4 {
-  text-align: center;
-  font-size: 4rem;
-  color: var(--skin);
-  font-family: cursive;
-}
-
-.main h5 {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  text-align: center;
-  width: auto;
-  color: var(--white) !important;
-}
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.main h6 {
-  font-size: 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  width: auto;
-  color: var(--blue);
-}
 
 p,
 h1,
@@ -264,34 +208,6 @@ i {
   .body {
     background-color: var(--grey);
   }
-}
-.about {
-  background-color: var(--navy);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  margin: auto;
-  text-align: center;
-}
-.span-name {
-  color: var(--gold);
-}
-.about h1 {
-  font-size: 4.4rem;
-  color: var(--black);
-}
-.about img {
-  width: auto;
-  height: auto;
-  border-radius: 50%;
-  background-color: var(--blueberry);
-  -webkit-box-shadow: 0 0 5px 6px var(--gold);
-  -moz-box-shadow: 0 0 5px 6px var(--gold);
-  box-shadow: 0 0 5px 6px var(--gold);
-}
-.about p {
-  font-size: 1.25rem;
-  color: var(--lightwhite);
 }
 
 .experience {
@@ -886,7 +802,7 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 768px) {
-  .main .about .experience .education .project .contact {
+  .experience .education .project .contact {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -902,6 +818,7 @@ textarea::placeholder {
 }
 .navbar {
   max-width: 100%;
+  padding: 2%;
 }
 @media only screen and (min-width: 200px) {
   .html .experience .education .project .contact {
