@@ -3,6 +3,12 @@
     max-width: 1200px;
     margin: 90px auto;
 }
+.bullet-points{
+    color:rgb(158, 158, 158)
+}
+.experience-card-text{
+    color:darkgray;
+}
 .container-e{
     padding: 10px 50px;
     position: relative;
@@ -75,6 +81,27 @@
     top:32px;
     height: 20px;
     width: 20px;
+}
+.experience-card{
+ position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    background: #061d35;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 18px;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(99, 102, 241, 0.65);
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.28);
 }
 .container-e img{
     position: absolute;

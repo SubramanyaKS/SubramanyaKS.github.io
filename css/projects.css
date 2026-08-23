@@ -38,7 +38,7 @@
 
 .projects-heading-row h2 {
     margin: 0;
-    font-size: clamp(42px, 5vw, 64px);
+    font-size: clamp(32px, 5vw, 40px);
     line-height: 1;
     font-weight: 600;
     letter-spacing: -0.045em;
@@ -268,4 +268,45 @@
     .project-content p {
         font-size: 13px;
     }
+}
+/* packages */
+.packages-section {
+    position: relative;
+    padding: 120px 24px 130px;
+    background: #03213d;
+    color: #f5f7fa;
+    overflow: hidden;
+}
+.packages-container {
+    width: min(1200px, 100%);
+    margin: 0 auto;
+}
+.package-card{
+   display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    min-width: 0;
+    overflow: hidden;
+    background: #061d35;
+    padding: 2%;
+    background-size: 200% 200%;
+    transition: all .5s ease-out;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 18px;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+.package-card:hover{
+     transform: translateY(-8px);
+    border-color: rgba(99, 102, 241, 0.65);
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.28);
+}
+.card-title{
+    color:white;
+}
+.card-text{
+    color: #aab5c5;
 }
