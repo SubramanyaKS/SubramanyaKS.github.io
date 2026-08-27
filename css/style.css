@@ -265,7 +265,7 @@ a:visited {
 }
 
 .resume-details a:hover,
-a:active {
+.resume-details a:active {
   background-color: var(--navy);
   -webkit-box-shadow: 0 0 5px 6px var(--capri);
   -moz-box-shadow: 0 0 5px 6px var(--capri);
