@@ -34,9 +34,12 @@
 
 	<!--Custom CSS and JS file included-->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-	<link rel="stylesheet" href="./css/project.css">
-	<link rel="stylesheet" href="./css/education.css">
+	<link rel="stylesheet" href="./css/projects.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/hero.css">
+	<link rel="stylesheet" href="./css/about.css">
+	<link rel="stylesheet" href="./css/contact.css">
+	<link rel="stylesheet" href="./css/experience.css">
 	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
 	<!--Font Awesome Library-->
@@ -104,7 +107,8 @@
 		<a class="navbar-brand" href="#" aria-label="Homepage">
 			<i class="fas fa-laptop-code" aria-hidden="true"></i>
 		</a>
-		<button class="navbar-toggler" aria-label="Menu bar" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<button class="navbar-toggler" aria-label="Menu bar" type="button" data-toggle="collapse"
+			data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -116,16 +120,13 @@
 					<a class="nav-link" href="#about"><b>ABOUT</b></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#education"><b>EDUCATION</b></a>
-				</li>
-				<li class="nav-item">
 					<a class="nav-link" href="#experience"><b>EXPERIENCE</b></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#skill"><b>SKILL</b></a>
+					<a class="nav-link" href="#projects"><b>PROJECT</b></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#project"><b>PROJECT</b></a>
+					<a class="nav-link" href="#skill"><b>SKILL</b></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#contact"><b>CONTACT</b></a>
@@ -136,717 +137,469 @@
 	<!--=========================================END OF NAVBAR=========================================-->
 
 	<!---================================== Main section /Home Section=================================-->
-	<section class="main py-5" id="main">
-		<div class="container-fluid  py-5">
-			<div class="row py-5">
-				<div class="col-lg-6 col-md-6 py-5 mr-auto ">
-					<h4 class="main-primary"><small>Hi <span class="wave">👋</span>, I am </small><br>
-						<span class="name">SUBRAMANYA</span>
-					</h4>
-					<h5 class="pt-3 ">&lt;
-						<span class="typed"></span>&gt;
-					</h5><br>
-					<script>
-						var typed = new Typed('.typed', {
-							strings: ['OPEN SOURCE CONTRIBUTOR', 'LEARNER', 'PROGRAMMER', 'DEVELOPER', 'WEB DEVELOPER', 'SIMPLE CODER'],
-							typeSpeed: 40,
-							backSpeed: 40,
-							loop: true,
-
-						});
-					</script>
+	<section class="hero" id="home">
+		<div class="hero-container">
+			<!-- Left Content -->
+			<div class="hero-content">
+				<div class="hero-eyebrow">
+					<span class="status-dot"></span>
+					SOFTWARE ENGINEER
 				</div>
-				<div class="col-lg-6 col-mg-6 py-5 mx-auto d-flex  justify-content-center align-items-center">
-					<div class="card edit">
-						<div class="card-header">
-							<ul class="nav nav-tabs card-header-tabs" id="bologna-list">
-								<li class="nav-item">
-									<a class="nav-link active" href="#description" role="tab"
-										aria-controls="description" aria-selected="true"><b>Java</b></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#history" role="tab" aria-controls="history"
-										aria-selected="false"><b>python</b></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#deals" role="tab" aria-controls="deals"
-										aria-selected="false"><b>Javascript</b></a>
-								</li>
-							</ul>
+				<h1>
+					Building practical software
+					<span>for real-world problems.</span>
+				</h1>
+				<p class="hero-description">
+					I'm <span class="hero-name">Subramanya K S</span>, a software engineer focused on
+					building web applications, APIs and developer tools
+					using modern technologies.
+				</p>
+				<div class="hero-actions">
+					<a href="#projects" class="hero-btn hero-btn-primary">
+						View My Work
+						<span>↗</span>
+					</a>
+					<a href="https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view?usp=sharin" target="_blank" rel="noopener noreferrer"
+						class="hero-btn hero-btn-secondary">
+						Download Resume
+						<span>↓</span>
+					</a>
+				</div>
+				<div class="hero-stack">
+					<span>JavaScript</span>
+					<span>React</span>
+					<span>Python</span>
+					<span>Django</span>
+					<span>Node.js</span>
+					<span>Git</span>
+				</div>
+			</div>
+			<!-- Right Developer Card -->
+			<div class="hero-visual">
+				<div class="code-card">
+					<div class="code-header">
+						<div class="window-dots">
+							<span class="first-dot"></span>
+							<span class="second-dot"></span>
+							<span class="third-dot"></span>
 						</div>
-						<div class="card-body">
-
-							<div class="tab-content mt-3">
-								<div class="tab-pane active" id="description" role="tabpanel">
-									<p style="text-align: left;" class="card-text"><code><span class="cn">class</span>&nbsp;<span style="color: rgb(104, 206, 236);">Me</span><br>
-								{<br>
-									&nbsp;&nbsp;<span class="vn">String</span> name;<br>
-									&nbsp;&nbsp;<span class="vn">int</span> age;<br>
-									&nbsp;&nbsp;<span class="vn">String</span> nationality;<br>
-									&nbsp;&nbsp;<span class="fn">Me</span>()<br>
-									&nbsp;&nbsp;{<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span class="cn">this</span>.name=<span class="val">"Subramanya"</span>;<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span class="cn">this</span>.age=<span class="val">22</span>;<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span class="cn">this</span>.nationality=<span class="val">"Indian"</span>;<br>
-										&nbsp;&nbsp;
-									}<br>
-									&nbsp;&nbsp;void <span class="fn">Hi</span> ()<br>
-									&nbsp;&nbsp;{<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(<span class="val"> "Welcome to my website"</span>);
-									<br>&nbsp;&nbsp;}<br>
-									&nbsp;&nbsp;<span class="cn">public static void</span> <span class="fn"> main</span> (<span class="vn"> String[]</span> args) <br>
-									&nbsp;&nbsp; { <br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span class="fn">Me </span> me= <span class="cn"> new </span><span style="color: rgb(104, 206, 236);">Me </span>();<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;me.Hi();<br>
-										&nbsp;&nbsp;}<br>
-								} </code></p>
-
-								</div>
-
-								<div class="tab-pane" id="history" role="tabpanel" aria-labelledby="history-tab">
-									<p style="text-align: left;" class="card-text"><code><span class="cn">class</span> &nbsp;<span class="fn">Me</span>:<br>
-
-								<br>&nbsp;&nbsp;<span class="cn">def</span> <span class="fn"> __init__</span>(self):<br>
-								&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="val"> "Subramanya"</span> <br>
-								&nbsp;&nbsp;&nbsp;&nbsp;self.age =  <span class="val""> 22</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;self.nationality =<span class="val">  "Indian"</span><br>
-								&nbsp;&nbsp;<span class="cn">def</span> <span class="fn"> say_hi</span>(self):<br>
-								&nbsp;&nbsp;&nbsp;&nbsp;print(<span class="val"> "Welcome to my website"</span>)<br><br>
-								me = <span class="fn"> Me</span>()<br>
-								me.<span class="fn">say_hi</span>()<br>
-							</code></p>
-
-
-									<!-- <a href="#" class="card-link text-danger">Read more</a> -->
-								</div>
-
-								<div class="tab-pane" id="deals" role="tabpanel" aria-labelledby="deals-tab">
-									<p style="text-align: left;" class="card-text"><code>
-								<span style="color: rgb(33, 18, 240);">class</span>&nbsp;<span style="color: rgb(104, 206, 236);">Me</span><br>
-								{<br>
-									
-									&nbsp;&nbsp;<span style="color: rgb(104, 206, 236);">constructor</span>()<br>
-									&nbsp;&nbsp;{<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgba(33, 18, 240, 0.972);">this</span>.name=<span style="color: rgba(248, 124, 7, 0.692);">"Subramanya"</span>;<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.age=<span style="color: rgba(248, 124, 7, 0.692);">22</span>;<br>
-										&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(33, 18, 240);">this</span>.nationality=<span style="color: rgba(248, 124, 7, 0.692);">"Indian"</span>;<br>
-										&nbsp;&nbsp;
-									}<br>
-									&nbsp;&nbsp; <span class="fn">Hi</span>() <br>
-									&nbsp;&nbsp;{<br>
-										&nbsp;&nbsp;&nbsp;&nbsp; console.log(<span class="val">"Welcome to my website"</span>)<br>
-										&nbsp;&nbsp;}<br>
-								} <br>
-							<span class="vn">let</span> me = <span class="cn"> new</span><span class="fn">Me</span>()<br>
-						me.<span class="fn">Hi</span>()<br></code></p>
-									<!-- <a href="#" class="btn btn-danger btn-sm">Get Deals</a> -->
-								</div>
-							</div>
+						<span class="code-file">
+							developer.js
+						</span>
+					</div>
+					<div class="code-content">
+						<div>
+							<span class="code-keyword">const</span>
+							<span class="code-variable">developer</span>
+							<span>=</span>
+							<span>{</span>
 						</div>
+						<div class="code-indent">
+							<span class="code-property">name:</span>
+							<span class="code-string">
+								"Subramanya K S"
+							</span>,
+						</div>
+						<div class="code-indent">
+							<span class="code-property">role:</span>
+							<span class="code-string">
+								"Software Engineer"
+							</span>,
+						</div>
+						<div class="code-indent">
+							<span class="code-property">focus:</span>
+							<span class="code-string">
+								"Web & APIs"
+							</span>,
+						</div>
+						<div class="code-indent">
+							<span class="code-property">openSource:</span>
+							<span class="code-boolean">
+								true
+							</span>,
+						</div>
+
+						<div class="code-indent">
+							<span class="code-property">coffee:</span>
+							<span class="code-boolean">
+								true
+							</span>
+						</div>
+						<div>
+							<span>}</span>
+						</div>
+						<br>
+						<div>
+							<span class="code-comment">// Build. Learn. Contribute.</span>
+						</div>
+					</div>
+				</div>
+				<!-- Floating card -->
+				<div class="floating-card">
+					<div class="floating-icon">
+						&lt;/&gt;
+					</div>
+					<div>
+						<strong>Building & learning</strong>
+						<small>One project at a time.</small>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- Scroll indicator -->
+		<a href="#about" class="scroll-indicator">
+			<span>SCROLL TO EXPLORE</span>
+			<span class="scroll-arrow">↓</span>
+		</a>
 	</section>
+
 	<!--================================================END OF MAIN SECCTION===========================================-->
 
 	<!--=================================================About Section=================================================-->
-	<section class="about py-5" id="about">
-		<div class="container reveal py-5">
-			<div class="row ">
-				<div class="col-lg-5 col-md-6">
-					<img src="./images/subbu1.png" class="img-fluid" alt="">
-				</div>
-				<div class="col-md-7  my-3">
-					<h2 style="font-family: cursive;"> &nbsp; About Me.</h2>
-					<p style="font-family: cursive;"> &nbsp;&nbsp; Learner|Programmer|Developer</p>
-					<p class="py-5"> &nbsp; I am <span class="font-weight-bold span-name">Subramanya K S</span>.
-
-						I'm passionate about Web Development and Android App Development.
-						I have completed several projects regarding the same and thus am aware of the real world
-						practical constraints that is usually encountered while solving problems.
-						I also actively interact with the open source community, contributing to it and also trying out
-						new stuff.
-
-						I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas
-						with them, thereby learn and also help others grow too.</p>
-
-					<!-- <div class="resume-details">
-						<a data-toggle="tooltip" title="Download resume" href="https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view?usp=sharin"
-							target="_blank"><i class="fa fa-download"></i>Download</a>
-					</div> -->
-					<div class="resume-button ">
-						<button id="openLinkButton" aria-label="download" class="external-link-button"> <span
-								class="buttonText">Download</span>
-							<i class="fa fa-download"></i></button>
+	<section class="about py-5 mt-5" id="about">
+		<div class="about-container reveal">
+			<div class="about-grid">
+				<!-- Image -->
+				<div class="about-image-wrapper">
+					<div class="about-image">
+						<img src="./images/subbu1.png" alt="Subramanya K S">
+					</div>
+					<!-- Decorative element -->
+					<div class="image-decoration"></div>
+					<!-- Small floating card -->
+					<div class="about-badge">
+						<span class="badge-dot"></span>
+						<div>
+							<strong>Always learning</strong>
+							<small>Always building</small>
+						</div>
 					</div>
 				</div>
+
+				<!-- Content -->
+				<div class="about-content">
+					<div class="about-role">
+						Software Engineer
+						<span>·</span>
+						Web Developer
+						<span>·</span>
+						Open Source
+					</div>
+
+					<h3>
+						Hi, I'm
+						<span>Subramanya K S.</span>
+					</h3>
+
+					<p>
+						I'm a software engineer who enjoys building practical
+						applications that solve real-world problems. My interests
+						span web development, backend APIs, Android applications,
+						and developer tools.
+					</p>
+
+					<p>
+						I enjoy taking an idea from a simple concept to a working
+						product — designing the interface, writing the backend,
+						connecting APIs, working with databases, and solving the
+						problems that appear along the way.
+					</p>
+
+					<!-- Highlights -->
+					<div class="about-highlights">
+
+						<div class="highlight-item">
+							<span class="highlight-number">01</span>
+							<div>
+								<h4>Build</h4>
+								<p>Web apps & APIs</p>
+							</div>
+						</div>
+
+						<div class="highlight-item">
+							<span class="highlight-number">02</span>
+							<div>
+								<h4>Explore</h4>
+								<p>New technologies</p>
+							</div>
+						</div>
+
+						<div class="highlight-item">
+							<span class="highlight-number">03</span>
+							<div>
+								<h4>Contribute</h4>
+								<p>Open source</p>
+							</div>
+						</div>
+
+					</div>
+					<!-- Actions -->
+					<div class="about-actions">
+						<a href="#projects" class="btn-primary">
+							View my work
+							<span>↗</span>
+						</a>
+
+						<a href="https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view?usp=sharin"
+							target="_blank" rel="noopener noreferrer" class="btn-secondary">
+							Download Resume
+							<span>↓</span>
+						</a>
+
+					</div>
+
+				</div>
 			</div>
-		</div>
 	</section>
 	<!--======================================================END OF ABOUT SECTION=============================================-->
 
-	<!--========================================================EDUCATION SECTION==============================================-->
-	<section class="education py-5" id="education">
-		<div class="reveal">
-			<h2 class="text-center mb-5" style="font-family: cursive;"> &nbsp; Education Details.</h2>
+	<!--==============================================================Experience===========================================-->
+	<section class="experiences py-5" id="experience">
+		<div class="container reveal">
+			<div class="projects-header">
+				<div class="section-label">
+					<span></span>
+					EXPERIENCE
+				</div>
+				<div class="projects-heading-row">
+					<div>
+						<h2>
+							Where I've <span>worked.</span>
+						</h2>
+						<p>
+							A look at the roles, responsibilities, and experiences that have shaped how I build software
+							and solve real-world problems.
+						</p>
+					</div>
+
+				</div>
+			</div>
 			<div class="timeline">
 
 				<div class="container-e left-container">
-					<!-- <div class="timeline-bullet"></div> -->
-					<img src="./images/jnncelogo-mini.jpg" alt="" />
-					<div class="text-box card">
-						<h3 class="card-title">J N N College of Engineering, Shivamogga</h3>
-						<p class="card-subtitle">Affiliated to Vishvesvaraya Technological University,Belgavi</p>
-						<br>
-						<p class="card-text">Bachelor of Engineering</p>
-						<p class="card-text">Information Science and Engineering</p>
-						<p class="card-text"><small class="text-white">2018-2022</small></p>
+					<div class="timeline-bullet"></div>
+					<!-- <img src="./images/jnncelogo-mini.jpg" alt="" /> -->
+					<div class="text-box experience-card">
+						<h3 class="card-title">Software Development Engineer</h3>
+						<h5 class="card-subtitle">Infosys</h5>
+						<p class="card-text"><small class="text-white">2022-present</small></p>
+						<div>
+							<p class="experience-card-text">Working on Fulstack and Mobile Application development,
+								APIs, debugging, and maintainable software solutions. </p>
+							<ul class="bullet-points">
+								<li>Develop and maintain mobile applications.</li>
+								<li>Develop and integrate REST APIs.</li>
+								<li>Work with databases and application data.</li>
+								<li>Investigate and resolve technical issues.</li>
+							</ul>
+						</div>
+						<div class="project-tech">
+							<span>Reactjs</span>
+							<span>React Native</span>
+							<span>FastAPI</span>
+							<span>Postgres</span>
+						</div>
 						<span class="left-container-arrow"></span>
 					</div>
 				</div>
 
 				<div class="container-e right-container">
-					<!-- <div class="timeline-bullet"></div> -->
-					<img src="./images/vikasalogo-mini.jpg" alt="vikasa" />
-					<div class="text-box card">
-						<h3 class="card-title">Vikasa P U College, Shivamogga</h3>
-						<p class="card-subtitle">Department of Pre University Education, Karnataka</p>
-						<br>
-						<p class="card-text">PUC /12th</p>
-						<p class="card-text"><small class="text-white">2018</small></p>
+					<div class="timeline-bullet"></div>
+					<!-- <img src="./images/vikasalogo-mini.jpg" alt="vikasa" /> -->
+					<div class="text-box experience-card">
+						<h3 class="card-title">Web Development Intern</h3>
+						<p class="card-subtitle">Ekathva Innovations Pvt. Ltd</p>
+						<p class="card-text"><small class="text-white">2021</small></p>
+						<div>
+							<p class="experience-card-text">Working on building REST APIs for the Ayucare Management
+								platform. </p>
+							<ul class="bullet-points">
+								<li>Designed backend API endpoints for application workflows.</li>
+								<li>Worked with Django models and database-driven functionality.</li>
+								<li>Integrated backend services into the broader application.</li>
+								<li>Gained experience working in a collaborative development environment.</li>
+							</ul>
+						</div>
+						<div class="project-tech">
+							<span>Python</span>
+							<span>Django</span>
+							<span>MongoDB</span>
+							<span>REST API</span>
+						</div>
 						<span class="right-container-arrow"></span>
 					</div>
 				</div>
-
-				<div class="container-e left-container">
-					<!-- <div class="timeline-bullet "></div> -->
-					<img src="./images/srvk-mini.jpg" alt="srvk" />
-					<div class="text-box card">
-						<h3 class="card-title">Sri Ramakrishna Vidyanikethana, Shivamogga</h3>
-						<p class="card-subtitle">Karnataka Secondary Education Examination Board</p>
-						<br>
-						<p class="card-text">SSLC/10th.</p>
-						<p class="card-text"><small class="text-white">2016</small></p>
-						<span class="left-container-arrow"></span>
-					</div>
-				</div>
-
 			</div>
 		</div>
-
 	</section>
-	<!--=====================================================END OF EDUCATION SECTION======================================-->
-
-	<!--==============================================================Experience===========================================-->
-	<section class="experience py-5" id="experience">
-  <div class="container-fluid reveal">
-    
-    <h2 class="text-center" style="font-family: cursive;">
-      Experience.
-    </h2>
-
-    <br><br><br>
-
-    <div class="row">
-
-      <!-- CARD 1 -->
-      <div  class="col-12 col-md-6 mb-4 d-flex justify-content-center">
-        <div class="card main-primary h-100">
-          
-          <img src="./images/ekatvaI.jpg" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <h5 class="card-title">Web Development Intern.</h5>
-
-            <h6 class="card-subtitle mb-2">
-              <a style="text-decoration: none;"
-                href="https://www.ekathvainnovations.com/"
-                target="_blank">
-                Ekathva Innovations Pvt. Ltd.
-              </a>
-            </h6>
-
-            <p class="card-text">
-              Done a Project titled "Django Based REST API development for
-              Ayucare Management". One month online industry level internship
-              helped me gain knowledge about recent technology, ideologies,
-              and aesthetics of the company.
-            </p>
-
-            <div class="social-buttons mt-5">
-              <a href="https://github.com/SubramanyaKS/AyuCareManagement"
-                target="_blank">
-
-                <i class="fab fa-github neo-button p-2"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- CARD 2 -->
-      <div  class="col-12 col-md-6 mb-4 d-flex justify-content-center">
-        <div class="card main-primary h-100">
-
-          <img src="./images/Thesparks.jpg" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <h5 class="card-title">
-              Web Development and Design Intern.
-            </h5>
-
-            <h6 class="card-subtitle mb-2">
-              <a style="text-decoration: none;"
-                href="https://www.thesparksfoundationsingapore.org/"
-                target="_blank">
-                The Sparks Foundation.
-              </a>
-            </h6>
-
-            <p class="card-text">
-              My first internship helped me gain some knowledge in web
-              development. Worked on the project title
-              "Basic Banking System".
-            </p>
-
-            <div class="social-buttons mt-5">
-              <a href="https://github.com/SubramanyaKS/Task1-BasicBankingSystem"
-                target="_blank">
-
-                <i class="fab fa-github neo-button p-2"></i>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 	<!--=============================================END OF EXPERIENCE SECTION==============================================-->
-
-	<!--=============================================Skills===========================================================-->
-	<section class="skill py-5 reveal" id="skill">
-		<h2 style="text-align: center; font-family: cursive;"><b>Skills</b></h2>
-		<div class="container-fluid  py-5">
-			<p style="text-align: center;color:white"><b>Theses are the skills I am currently learning and usually used
-					in my
-					projects .</b></p>
-			<br>
-			<div class="row  row-eq-height">
-				<div class="col mb-4  d-flex justify-content-center align-items-center ">
-					<div class="card reveal">
-						<div class="card-body">
-							<h5 class="card-title" style="text-align: center;"><b>Programming Language</b></h5>
-							<br>
-							<img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C" />
-							<img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="Java" />
-							<img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python" />
-						</div>
-					</div>
-				</div>
-				<div class="col mb-4  d-flex justify-content-center align-items-center">
-					<div class="card reveal">
-						<div class="card-body">
-							<h5 class="card-title" style="text-align: center;"><b>Databases</b></h5>
-							<br>
-							<img src="https://img.icons8.com/color/60/000000/mysql-logo.png" alt="MySQL" />
-							<img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" />
-						</div>
-					</div>
-				</div>
-				<div class="col mb-4  d-flex justify-content-center align-items-center">
-					<div class="card reveal">
-						<div class="card-body">
-							<h5 class="card-title" style="text-align: center;"><b>Web Technology</b></h5>
-							<br>
-							<img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" />
-							<img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="Javascript" />
-							<img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML" />
-							<img src="https://img.icons8.com/ultraviolet/48/000000/react--v1.png" alt="React" />
-						</div>
-					</div>
-				</div>
-				<div class="col mb-4  d-flex justify-content-center align-items-center">
-					<div class="card reveal">
-						<div class="card-body">
-							<h5 class="card-title" style="text-align: center;"><b>FrameWorks</b></h5>
-							<br>
-							<img src="https://img.icons8.com/color/48/000000/django.png" alt="Django" />
-							<img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask" />
-							<img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" />
-							<img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node JS" />
-
-						</div>
-					</div>
-				</div>
-				<div class="col mb-4  d-flex justify-content-center align-items-center">
-					<div class="card reveal">
-						<div class="card-body">
-							<h5 class="card-title" style="text-align: center;"><b>IDE</b></h5>
-							<br>
-							<img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
-								alt="vscode" />
-							<img src="https://img.icons8.com/ios-filled/50/null/java-eclipse.png" alt="Eclipse" />
-						</div>
-					</div>
-				</div>
-				<div class="col mb-4  d-flex justify-content-center align-items-center">
-					<div class="card reveal">
-						<div class="card-body">
-							<h5 class="card-title" style="text-align: center;"><b>Other Tools</b></h5>
-							<br>
-							<img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" />
-							<img src="https://img.icons8.com/color/48/000000/android-os.png" alt="Android" />
-							<img src="https://img.icons8.com/fluency/48/000000/jupyter.png" alt="Jupyter" />
-							<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
-								alt="postman" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--=======================================================END OF SKILLS SECTION=========================================-->
 
 	<!--=======================================================Project Section===============================================-->
 
-	<section class="project py-5 reveal" id="project">
-		<h2 class="text-center" style="font-family: cursive;"> &nbsp; My Project.</h2></br>
-		<p style="color:white"> If you like projects don't forget to <i class="fa fa-2x fa-code-fork"
-				style="padding: 0%;"></i> the repository and don't forget to <i class="fa-2x fa fa-star"
-				style="margin:0;padding: 0%;"></i> the repository in github.</p>
-		<div class="container mt-5">
-			<div class="row">
-				<div class="col-md-12">
-					<!-- Place carousel slide buttons outside the carousel -->
-					<div class="carousel-controls">
-						<a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
+	<section class="projects-section" id="projects">
+		<div class="projects-container reveal">
+			<div class="projects-header">
+				<div class="section-label">
+					<span></span>
+					FEATURED PROJECTS
+				</div>
+				<div class="projects-heading-row">
+					<div>
+						<h2>
+							Things I've <span>built.</span>
+						</h2>
+						<p>
+							A selection of projects I've built while exploring
+							web development, APIs, and practical software solutions.
+						</p>
 					</div>
-					<div id="projectCarousel" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/weather.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">Weather Application.</h5>
-												<h6 class="card-subtitle mb-3">API Based Web Application.</h6>
-												<p class="card-description">React based web application which fetch the
-													weather details of various city across the globe using
-													openweathermap API</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-react p-2"></i>
-													<i class="medium-icon fab fa-html5 fa-lg p-2"></i>
-													<i class="medium-icon fab fa-js p-2"></i>
-													<i class="medium-icon fab fa-css3-alt p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/Weather-app/"
-													aria-label="View Github link" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class=" fab fa-github" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://subramanyaks.github.io/Weather-app"
-													aria-label="View Weather App" title="Project link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-external-link-alt" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/news.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">React News App</h5>
-												<h6 class="card-subtitle mb-3">API Based Web Application.</h6>
-												<p class="card-description">React JS-based online news web app that
-													utilizes the NewsAPI.org API. It allows users to access and read
-													news articles from a wide range of sources.</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-react p-2"></i>
-													<i class="medium-icon fab fa-html5 fa-lg p-2"></i>
-													<i class="medium-icon fab fa-js p-2"></i>
-													<i class="medium-icon fab fa-css3-alt p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/React-News-App/"
-													aria-label="View Github link" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/portfolio.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">My React Portfolio.</h5>
-												<h6 class="card-subtitle mb-3 ">React based portfolio website.</h6>
-												<p class="card-description">My portfolio website version 2 using react
-													js with beautiful ui with support
-													of particle.js. Deployed in netlify app.</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-react p-2"></i>
-													<i class="medium-icon fab fa-html5 fa-lg p-2"></i>
-													<i class="medium-icon fab fa-js p-2"></i>
-													<i class="medium-icon fab fa-css3-alt p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/MYReactApp"
-													aria-label="View Github link" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://subramanyaks.netlify.app/"
-													aria-label="View Profile App" title="Project link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-external-link-alt" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-
-									<!-- Add two more project cards here -->
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/e-commerce.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons mb-1">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">NamKart.</h5>
-												<h6 class="card-subtitle mb-3 ">React E-commerce website.</h6>
-												<p class="card-description">React shopping app a modern and responsive
-													shopping app built with React.js, Bootstrap for styling, and powered
-													by the FakeStoreAPI.</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-react p-2"></i>
-													<i class="medium-icon fab fa-html5 fa-lg p-2"></i>
-													<i class="medium-icon fab fa-js p-2"></i>
-													<i class="medium-icon fab fa-css3-alt p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/shopping-app"
-													aria-label="View Github link" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://namkart-ecommerce.netlify.app/"
-													aria-label="View Shopping App" title="Project link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-external-link-alt" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/quote.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">Random Quote Generator.</h5>
-												<h6 class="card-subtitle mb-3 ">Html javascript based web app.</h6>
-												<p class="card-description">A simple web application which display the
-													quote with both text and speech using random quote api.</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-html5 fa-lg p-2"></i>
-													<i class="medium-icon fab fa-js p-2"></i>
-													<i class="medium-icon fab fa-css3-alt p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/RandomQuoteGenerator/"
-													aria-label="View in github" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://subramanyaks.github.io/RandomQuoteGenerator"
-													aria-label="View App" title="Project link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-external-link-alt" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/media.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">Media Player Application.</h5>
-												<h6 class="card-subtitle mb-3">Android application.</h6>
-												<p class="card-description">Application which play the audio and video
-													and able to move forward and backword of media using button.</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-java p-2"></i>
-													<i class='medium-icon bx bxl-android'></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/MediaPlayer-Android-Application/"
-													aria-label="View in github" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<!-- Add two more project cards here -->
-								</div>
-							</div>
-							<!-- Add more carousel items with three project cards each -->
-							<div class="carousel-item">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/bus.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">Bus Reservation System</h5>
-												<h6 class="card-subtitle mb-3 ">A Dbms mini-project</h6>
-												<p class="card-description">This Project passenger can reserve the bus
-													seat,check the seat availability,view the seat arrangement and do
-													the payment after reservation.</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-java p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/busreservation"
-													aria-label="View in github" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://github.com/SubramanyaKS/busreservation/blob/main/BusReservation.jar"
-													aria-label="View JAR" title="Project JAR link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-download" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/energy.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">Electricity monitoring System.</h5>
-												<h6 class="card-subtitle mb-3 ">IoT and Web based project.</h6>
-												<p class="card-description">Project based on IoT and web based electric
-													energy monitoring system. Used Nodemcu and flask</p>
-												<div class="card-icons mb-2">
-													<i class='medium-icon bx bxl-flask'></i>
-													<i class="medium-icon fab fa-html5 fa-lg p-2"></i>
-													<i class="medium-icon fab fa-js p-2"></i>
-													<i class="medium-icon fab fa-css3-alt p-2"></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS/Final-year-project/"
-													aria-label="View in github" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="project-card">
-											<img src="./images/cal.jpg" alt="Project Image" class="card-img-top">
-											<div class="card-body">
-												<div class="github-icons">
-													<i class="icon fas fa-code-branch medium-icon"></i>
-													<i class="icon far fa-star medium-icon"></i>
-												</div>
-												<h5 class="card-title mt-5">VTU SGPA CGPA Calculator.</h5>
-												<h6 class="card-subtitle mb-3 ">Java jar application.</h6>
-												<p class="card-description">Created an app which calculates the CGPA and
-													SGPA of VTU students of old schemes.Created both java jar
-													application and android app</p>
-												<div class="card-icons mb-2">
-													<i class="medium-icon fab fa-java p-2"></i>
-													<i class='medium-icon bx bxl-android'></i>
-												</div>
-												<a href="https://github.com/SubramanyaKS//VTU-CGPA_SGPA-Calculator/"
-													aria-label="View in github" title="Project github link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fab fa-github" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://github.com/SubramanyaKS/VTU-CGPA_SGPA-Calculator/blob/main/Vtu_SGPACGPA_Calculator_1.0.apk"
-													aria-label="View APK" title="App download link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-external-link-alt" style="font-size: 24px;"></i>
-												</a>
-												<a href="https://github.com/SubramanyaKS/VTU-CGPA_SGPA-Calculator/blob/main/VTU_SGPA_CGPA.jar"
-													aria-label="View JAR" title="Project JAR link"
-													class="rounded-icon-button" target="_blank">
-													<i class="fas fa-download" style="font-size: 24px;"></i>
-												</a>
-											</div>
-										</div>
-									</div>
-									<br />
-									<!-- Add two more project cards here -->
-								</div>
-							</div>
+					<a href="https://github.com/SubramanyaKS?tab=repositories" class="view-all-link">
+						View all projects
+						<span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+					</a>
+				</div>
+			</div>
+			<div class="projects-grid">
+				<article class="project-card">
+					<div class="project-image">
+						<img src="./images/text-sql.png" alt="Weather Application screenshot" loading="lazy">
+						<div class="project-category">
+							AI APPLICATION
 						</div>
 					</div>
-
-				</div>
-
-				<br />
-			</div>
-			<div class="button-container">
-				<a href="https://github.com/SubramanyaKS?tab=repositories" target="_blank" class="project-button">View
-					more <i class="fa-solid fa-arrow-right"></i></a>
+					<div class="project-content">
+						<div class="project-number">
+							01
+						</div>
+						<h3>
+							Gemini SQL Interface
+						</h3>
+						<p>
+							A compact, production-minded Streamlit application that converts natural-language questions
+							into SQL using Google's Gemini API and executes safe, read-mostly queries against a
+							Relational database.
+						</p>
+						<div class="project-tech">
+							<span>Python</span>
+							<span>Streamlit</span>
+							<span>Gemini API</span>
+							<span>SQL</span>
+						</div>
+						<div class="project-actions">
+							<a href="https://github.com/SubramanyaKS/gemini-sql-interface" target="_blank"
+								rel="noopener noreferrer" class="project-link">
+								<span>GitHub</span>
+								<span class="link-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+							</a>
+							<!-- <a href="https://your-live-demo.com" target="_blank" rel="noopener noreferrer"
+								class="project-link project-live">
+								<span>Live Demo</span>
+								<span class="link-arrow">↗</span>
+							</a> -->
+						</div>
+					</div>
+				</article>
+				<article class="project-card">
+					<div class="project-image">
+						<img src="./images/weather.jpg" alt="Weather Application screenshot" loading="lazy">
+						<div class="project-category">
+							MOBILE APPLICATION
+						</div>
+					</div>
+					<div class="project-content">
+						<div class="project-number">
+							02
+						</div>
+						<h3>
+							PhraseBot
+						</h3>
+						<p>
+							PhraseBot is a Flutter-based AI chatbot that provides real-time conversations using Google
+							gemini API.
+							It also features user authentication with Supabase for a secure and personalized experience.
+						</p>
+						<div class="project-tech">
+							<span>Flutter</span>
+							<span>Gemini API</span>
+							<span>Supabase</span>
+						</div>
+						<div class="project-actions">
+							<a href="https://github.com/SubramanyaKS/phrasebot" target="_blank"
+								rel="noopener noreferrer" class="project-link">
+								<span>GitHub</span>
+								<span class="link-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+							</a>
+						</div>
+					</div>
+				</article>
+				<article class="project-card">
+					<div class="project-image">
+						<img src="./images/weather.jpg" alt="Weather Application screenshot" loading="lazy">
+						<div class="project-category">
+							WEB APPLICATION
+						</div>
+					</div>
+					<div class="project-content">
+						<div class="project-number">
+							03
+						</div>
+						<h3>
+							PhrasePic
+						</h3>
+						<p>
+							Application which generate Image based on the input prompt.
+							It has developed using Next JS and Stability AI's Stable Diffusion model API hosted on
+							Hugging Face.
+						</p>
+						<div class="project-tech">
+							<span>Next JS</span>
+							<span>HuggingFace</span>
+							<span>Supabase</span>
+						</div>
+						<div class="project-actions">
+							<a href="https://github.com/SubramanyaKS/PhrasePic" target="_blank"
+								rel="noopener noreferrer" class="project-link">
+								<span>GitHub</span>
+								<span class="link-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+							</a>
+						</div>
+					</div>
+				</article>
 			</div>
 		</div>
 	</section>
 
 	<!--=====================================END OF PROJECT SECTION=======================================================-->
-
 	<!-- Package Details -->
-	<section class="py-5">
-		<h3 class="text-center mt-2">Packages</h3>
-		<div class="container">
+	<section class="packages-section">
+		<div class="packages-container reveal">
+			<div class="projects-header">
+				<div class="section-label">
+					<span></span>
+					FEATURED PACKAGES
+				</div>
+				<div class="projects-heading-row">
+					<div>
+						<h2>
+							Things I've <span>built.</span>
+						</h2>
+						<p>
+							A selection of projects I've built while exploring
+							web development, APIs, and practical software solutions.
+						</p>
+					</div>
+					<a href="https://www.npmjs.com/~subramanyaks" target="_blank" class="view-all-link">
+						View all packages
+						<span>↗</span>
+					</a>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col">
 					<div class="package-card">
 						<div class="card-body">
-							<h5 class="card-title text-center mb-3">Reactjs Toggle Switch</h5>
-							<p class="text-white">reactjs-toggleswitch is a toggle switch component implemented using
+							<h5 class="card-title mb-3">Reactjs Toggle Switch</h5>
+							<p class="card-text">reactjs-toggleswitch is a toggle switch component implemented using
 								react js and TypeScript.
 								It is customizable switch component for React applications.</p>
 							<div class="d-flex justify-content-between align-content-between">
@@ -862,17 +615,15 @@
 				</div>
 				<div class="col">
 					<div class="package-card">
-						<!-- <h5 class="card-header">Featured</h5> -->
 						<div class="card-body">
-							<h5 class="card-title text-center mb-3">Reactjs Accordion ui</h5>
-							<p class="text-white">reactjs-accordion-ui is a customizable and lightweight ReactJS
-								accordion component
-								that allows you to easily create collapsible sections of content.</p>
+							<h5 class="card-title mb-3"> fetch-retry-logic</h5>
+							<p class="card-text">A lightweight, zero-dependency wrapper for the native Fetch API that
+								adds exponential backoff, jitter, and customizable retry logic.</p>
 							<div class="d-flex justify-content-between align-content-between">
-								<a href="https://www.npmjs.com/package/reactjs-accordion-ui"
+								<a href="https://www.npmjs.com/package/fetch-retry-logic"
 									aria-label="View Package in NPM" title="NPM Package" target="_blank"
 									class="rounded-icon-button"><i class="fa-brands fa-npm"></i></a>
-								<a href="https://github.com/SubramanyaKS/reactjs-accordion-ui"
+								<a href="https://github.com/SubramanyaKS/fetch-retry-logic"
 									aria-label="View GitHub repositories" title="Project github link" target="_blank"
 									class="rounded-icon-button"><i class="fab fa-github"></i></a>
 							</div>
@@ -881,69 +632,148 @@
 				</div>
 			</div>
 		</div>
-
-
 	</section>
 
 	<!-- END Package -->
+	<!--=============================================Skills===========================================================-->
+	<section class="personal-skill py-5 reveal" id="skill">
+		<!-- <h2 style="text-align: center; font-family: cursive;"><b>Skills</b></h2> -->
+		<div class="container py-5">
+			<div class="projects-header">
+				<div class="section-label">
+					<span></span>
+					SKILLS
+				</div>
+				<div class="projects-heading-row">
+					<div>
+						<h2>What I work <span>with.</span></h2>
+						<p>
+							A practical overview of the technologies and tools I use
+							to build applications, APIs, and software solutions.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row  row-eq-height">
+				<div class="col mb-4  d-flex justify-content-center align-items-center ">
+					<div class="project-card reveal">
+						<div class="card-body">
+							<h5 class="card-title" style="text-align: center;"><b>WEB</b></h5>
+							<div class="project-tech">
+								<span>React</span>
+								<span>NextJS</span>
+								<span>Typescript</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4  d-flex justify-content-center align-items-center">
+					<div class="project-card reveal">
+						<div class="card-body">
+							<h5 class="card-title" style="text-align: center;"><b>BACKEND</b></h5>
+							<div class="project-tech">
+								<span>NodeJS</span>
+								<span>FastAPI</span>
+								<span>SpringBoot</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4  d-flex justify-content-center align-items-center">
+					<div class="project-card reveal">
+						<div class="card-body">
+							<h5 class="card-title" style="text-align: center;"><b>MOBILE</b></h5>
+							<div class="project-tech">
+								<span>ReactJS</span>
+								<span>Flutter</span>
+								<span>React Native</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4  d-flex justify-content-center align-items-center">
+					<div class="project-card reveal">
+						<div class="card-body">
+							<h5 class="card-title" style="text-align: center;"><b>DATABASE</b></h5>
+							<div class="project-tech">
+								<span>Postgres</span>
+								<span>MongoDB</span>
+								<span>MySQL</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4  d-flex justify-content-center align-items-center">
+					<div class="project-card reveal">
+						<div class="card-body">
+							<h5 class="card-title" style="text-align: center;"><b>TOOLS</b></h5>
+							<div class="project-tech">
+								<span>Docker</span>
+								<span>Git</span>
+								<span>Postman</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!--=======================================================END OF SKILLS SECTION=========================================-->
 
 	<!--==============================================CONTACT SECTION=======================================-->
 	<section class="contact py-5" id="contact">
-		<div class="container-fluid  reveal">
-			<h1 class="text-center" style="font-family: cursive;"> &nbsp; Contact me.</h1>
-			<div class="row"><br>
-				<p style="text-align:center;color:white"><b> you can connect me through any of my below social
-						profile.</b></p>
+		<div class="container reveal">
+			<div class="section-label">
+				<span></span>
+				LET'S CONNECT
+			</div>
 
-				<div class="contact-form col-md-6">
-					<div>
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-						<i class="text">Karnataka,India</i><br>
-					</div>
-				</div>
+			<div class="contact-content">
 
-				<div class="container-c">
-					<div class="inside-box">
-						<a href="https://www.freecounterstat.com" title="html hit counter code"><img
-								src="https://counter1.stat.ovh/private/freecounterstat.php?c=eejyl6w9aejyy3q3em38bw6lse7a6ha8"
-								title="html hit counter code" alt="html hit counter code"></a>
-					</div>
+				<h2>
+					Have a <span>project</span> or <span>idea?</span>
+				</h2>
 
-					<div class="inside-box" style="text-align: center;"><a
-							href="https://www.linkedin.com/in/subramanya-k-s-b74a92204/" aria-label="View Linkedin"
-							title="View Linkedin Profile" target="_blank" class=" icon-box fab fa-linkedin"
-							style="font-size:30px; margin-right: 1%;"></a>
-						<a href="https://github.com/SubramanyaKS" aria-label="View GitHub" title="View Github Profile"
-							target="_blank" class="icon-box fab fa-github" style="font-size:30px;margin-right: 1%;"></a>
-						<a href="https://medium.com/@subbuks" aria-label="View Medium" title="View Medium Profile"
-							target="_blank" class="icon-box fab fa-medium-m"
-							style="font-size:30px; margin-right: 1%;"></a>
-						<a href="https://www.youtube.com/channel/UCg28-MrcK-8CCFos7FWp0Dg/" aria-label="View Youtube"
-							title="View Youtube Channel" target="_blank"><i class="icon-box fab fa-youtube"
-								style="color:red; margin-right: 1%;"></i></a>
-						<a href="https://x.com/subbukshebbar" aria-label="View X" title="View X Profile"
-							target="_blank"><i class="icon-box fab fa-x-twitter"
-								style="color:rgb(106, 142, 241); margin-right: 1%;"></i></a>
-						<a href="mailto:subramanyaks2205@gmail.com" aria-label="Mail" title="Mail" target="_blank"><i
-								class="icon-box fab fa-google" style="color:red"></i></a>
-					</div>
+				<p>
+					I'm always open to discussing software,
+					interesting projects and new opportunities.
+				</p>
 
-					<div class="inside-box" style="text-align: right;">
-						<!-- <i class="fa fa-angle-up bounce"></i><br> -->
-						<a aria-label="Top" title="Go to top" href="#"><i class="fa fa-arrow-circle-up bounce"
-								style="color:rgb(239, 239, 243);"></i></a>
-					</div>
-				</div>
-
+				<a href="mailto:subramanyaks2205@gmail.com" class="contact-button">
+					Get in touch <span><i class="fa-solid fa-share"></i></span>
+				</a>
 
 			</div>
-		</div>
+
+			<div class="contact-links">
+
+				<div class="brand"><a href="https://github.com/SubramanyaKS" target="_blank">
+					<i class="fa-brands fa-github"></i>
+					GitHub
+					<span><i class="fa-solid fa-share"></i></span>
+				</a></div>
+
+				<div class="brand"><a href="https://www.linkedin.com/in/subramanya-k-s-b74a92204/" target="_blank">
+					<i class="fa-brands fa-linkedin-in"></i>
+					LinkedIn
+					<span><i class="fa-solid fa-share"></i></span>
+				</a></div>
+
+				<div class="brand"><a href="https://x.com/DeveloperSubbu">
+					<i class="fa-brands fa-x-twitter"></i></i>
+					X
+					<span><i class="fa-solid fa-share"></i></span>
+				</a></div>
+
+			</div>
+			<a aria-label="Top" title="Go to top" href="#"><i class="fa fa-arrow-circle-up bounce"
+					style="color:rgb(239, 239, 243);"></i></a>
+
 	</section>
 	<!--=====================================END OF CONTACT SECTION====================================================================-->
 
 	<!--========================================FOOTER SECTION==========================================================================-->
 	<footer class="footer">
-		<p class="text-center"><b>&copy;2025. Designed with <i class="fas fa-heart beat" style="color: red;"></i> by
+		<p class="text-center"><b>&copy;2026. Designed with <i class="fas fa-heart beat" style="color: red;"></i> by
 				Subramanya K S.</b></p>
 	</footer>
 	<!--====================================END OF FOOTER SECTION=======================================================================-->
